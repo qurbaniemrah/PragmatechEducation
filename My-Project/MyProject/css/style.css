@@ -89,7 +89,7 @@ a:hover {
 .slide {
     padding: 100px 0px;
     /* border: 1px solid gray; */
-    background-image: url(/My-Project/img/slider-classic-slide-1-1920x710.jpg);
+    background-image: url(/My-Project/MyProject/img/slider-classic-slide-1-1920x710.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -145,6 +145,12 @@ a:hover {
     font-family: 'Space Mono', monospace
 }
 
+.service-heading h2 {
+    color: #00C9B2;
+}
+
+/* Service heading section end */
+
 
 
 
@@ -153,12 +159,29 @@ a:hover {
 #service-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-rows: auto auto auto;
     gap: 20px;
 }
 
 .service-item {
 
     padding: 15px;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
+    overflow: hidden;
+}
+
+.service-item h2 {
+    color: #565656;
+}
+
+.service-item p {
+    color: #565656;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #47D6CC;
+
 }
