@@ -2,11 +2,12 @@
     box-sizing: border-box;
 
 }
+
 /* Container header start */
 #container-header {
     width: 100%;
     display: flex;
-
+    
 
 }
 
@@ -86,7 +87,6 @@ a:hover {
 
 /* slide section start */
 .slide {
-    /* height: 500px; */
     padding: 100px 0px;
     /* border: 1px solid gray; */
     background-image: url(/My-Project/img/slider-classic-slide-1-1920x710.jpg);
@@ -96,26 +96,74 @@ a:hover {
 }
 
 .slide-content {
-    max-width: 400px;
-    padding-left: 100px;
+    /* max-width: 400px; */
+    padding-left: 130px;
 }
 
 .slide-heading h1 {
     font-size: 3.5em;
     font-weight: 700;
-    color:#FEFEFE;
+    color: #FEFEFE;
+    font-family: 'Space Mono', monospace
 }
 
 .slide-description p {
     margin: 40px 0px;
-    color:#FEFEFE;
-}
-
-.slide-buttons  {
-    
-    font-size: 3.5rem;
-}
-
-.slide-buttons a {
     color: #FEFEFE;
+    font-size: 20px;
+    font-family: 'Space Mono', monospace
 }
+
+.slide-buttons {
+   width: 160px;
+   height: 50px;
+    /* font-size: 3.5rem; */
+    display: inline-block;
+    padding: 15px 35px;
+    position: relative;
+    background-color: #01C5B9;
+    font-family: 'Space Mono', monospace
+}
+
+.slide-buttons a  {
+    position: absolute;
+    color: #FEFEFE;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+/* slide section end */
+
+/* Service hedading section start */
+.service-heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    font-size: 1.5rem;
+    font-family: 'Space Mono', monospace
+    
+}
+
+
+
+
+/* Service section start */
+
+#service-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    gap: 20px;
+}
+
+.service-item {
+  
+  padding: 15px;
+  border: 1px solid gray;
+}
+
+
+
+
