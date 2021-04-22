@@ -161,13 +161,16 @@ a:hover {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     gap: 20px;
+    
 }
 
 .service-item {
 
     padding: 15px;
     /* border: 1px solid gray; */
+    text-align: center;
     overflow: hidden;
+    
 }
 
 .service-item h2 {
@@ -184,4 +187,20 @@ a:hover {
     font-size: 50px;
     color: #47D6CC;
 
+}
+
+/* service section end */
+
+#pricing-plans-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+}
+
+.pricing-plan-item {
+    box-shadow: 0px opx 5px black;
+    border: 1px solid black;
+    padding: 0px 10px;
+    text-align: center;
 }
