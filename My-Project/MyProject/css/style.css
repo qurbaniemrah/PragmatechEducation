@@ -184,9 +184,13 @@ a:hover {
 .icon {
     display: flex;
     justify-content: center;
-    font-size: 50px;
+    /* font-size: 50px; */
     color: #47D6CC;
+    transition: 1.5s;
+}
 
+.icon:hover {
+   transform: scale(1.5,1.5);
 }
 
 /* service section end */
