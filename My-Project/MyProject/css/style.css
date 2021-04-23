@@ -207,8 +207,9 @@ a:hover {
     display: inline-block;
     padding: 10px 20px;
     cursor: pointer;
-   
+
 }
+
 /* 
 @keyframes  example {
     from {background-color: transparent;}
@@ -226,7 +227,7 @@ a:hover {
     transition: 2s;
     /* animation-name: example ;
     animation-duration: 3s; */
-    
+
 
 }
 
@@ -270,7 +271,7 @@ a:hover {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     gap: 20px;
-    
+
 }
 
 .why-choose-us-item {
