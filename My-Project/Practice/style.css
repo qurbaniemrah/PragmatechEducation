@@ -1,36 +1,60 @@
-.div-1 {
+/* .div-1 {
     width: 100px;
     height: 100px;
-    background-color: red;
-    /* transform: translate(200px, 200px);
+    background-color: red; */
+/* transform: translate(200px, 200px);
     transform: rotate(5deg);
     transform: rotate(-5deg);
     transform: rotate(0deg);
     transform: scale(2,5); */
-    /* margin: 0px 100px; */
-    /* transform: scaleX(2); */
-    /* transform: scaleY(4); */
-    /* transform: skewX(80deg); */
-    /* 20deg x axis 30 deg y axis */
-    /* transform: skew(20deg, 30deg); */
-    /* transform: rotateX(150deg); */
-    /* transform: rotateY(150deg); */
-    /* transform: rotateZ(180deg); */
-    /* transition: width height 2s; */
-    transition: width 3s;
+/* margin: 0px 100px; */
+/* transform: scaleX(2); */
+/* transform: scaleY(4); */
+/* transform: skewX(80deg); */
+/* 20deg x axis 30 deg y axis */
+/* transform: skew(20deg, 30deg); */
+/* transform: rotateX(150deg); */
+/* transform: rotateY(150deg); */
+/* transform: rotateZ(180deg); */
+/* transition: width height 2s; */
+/* transition: width 3s;
     transition-delay: 1s;
-    transition-duration: 2s;
- 
-    
-}
+    transition-duration: 2s; */
 
+
+/* } */
+/* 
 .div-1:hover {
   width: 300px;
   
-}
+} */
 /* 
 .div-2 {
     width: 100px;
     height: 100px;
     background-color:blue;
 } */
+
+.button {
+
+  display: inline-block;
+  background-color:#01C5BA;
+  /* padding: 20px 20px; */
+  padding: 10px 20px;
+  transition: 2s;
+  
+}
+
+.button:hover {
+  
+  transition: 3s;
+  transform: translate(all);
+  color:black;
+}
+
+.button a {
+  text-decoration: none;
+  /* text-align: center; */
+  font-size: 20px
+  
+}

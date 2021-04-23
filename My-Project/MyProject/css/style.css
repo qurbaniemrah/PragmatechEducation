@@ -114,23 +114,30 @@ a:hover {
     font-family: 'Space Mono', monospace
 }
 
-.slide-buttons {
-    width: 160px;
-    height: 50px;
-    /* font-size: 3.5rem; */
+.button {
+
     display: inline-block;
-    padding: 15px 35px;
-    position: relative;
-    background-color: #01C5B9;
-    font-family: 'Space Mono', monospace
+    background-color: #01C5BA;
+    /* padding: 20px 20px; */
+    padding: 10px 20px;
+    transition: 2s;
+    border-radius: 10px;
+
 }
 
-.slide-buttons a {
-    position: absolute;
-    color: #FEFEFE;
-    font-size: 1.1rem;
-    font-weight: 300;
+.button:hover {
+    /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+
+    transform: scale(1.5);
+    border-radius: 50%;
 }
+
+.button a {
+    color: #fff;
+    font-size: 25px;
+}
+
+
 
 /* slide section end */
 
@@ -161,7 +168,7 @@ a:hover {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     gap: 20px;
-    
+
 }
 
 .service-item {
@@ -170,7 +177,7 @@ a:hover {
     /* border: 1px solid gray; */
     text-align: center;
     overflow: hidden;
-    
+
 }
 
 .service-item h2 {
@@ -186,14 +193,38 @@ a:hover {
     justify-content: center;
     /* font-size: 50px; */
     color: #47D6CC;
-    transition: 1.5s;
+    transition: 1s;
 }
 
 .icon:hover {
-   transform: scale(1.5,1.5);
+    transform: scale(1.5, 1.5);
+    /* transform: rotate(360deg); */
+    cursor: pointer;
+}
+
+.services-button {
+    background-color: transparent;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.services-button a {
+    color: #565656;
+}
+
+.services-button:hover {
+    background-color: #01ADF4;
+
+
+}
+
+.services-button a:hover {
+    color: #fff;
 }
 
 /* service section end */
+
+/* pricing plans section start */
 
 #pricing-plans-content {
     display: grid;
@@ -204,7 +235,15 @@ a:hover {
 
 .pricing-plan-item {
     box-shadow: 0px opx 5px black;
-    border: 1px solid black;
+
     padding: 0px 10px;
     text-align: center;
+}
+
+.price {
+    font-size: 70px;
+}
+
+.pricing-plan-button {
+    border: aqua;
 }
