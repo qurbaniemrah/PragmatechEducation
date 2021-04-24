@@ -78,8 +78,9 @@ a:hover {
 
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    padding: 0px 50px;
+    align-items:flex-end;
+    padding: 0px 100px;
+   
 
 }
 
@@ -294,10 +295,10 @@ a:hover {
 
 /* Abot us section start */
 
-.about-us-container {
- background-color: #76808A;
- margin: 50px 0px;
- display: flex;
+/* .about-us-container {
+    background-color: #76808A;
+    margin: 50px 0px;
+    display: flex;
 }
 
 .about-us-items-container {
@@ -305,22 +306,23 @@ a:hover {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
     font-size: 25px;
-    
+
 }
 
 .about-us-items {
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* grid-template-rows: auto auto; */
-    color: #fff;
-}
+    /* color: #fff; */
+/* } */
 
-.big {
+/* .big {
     font-size: 50px;
 }
 
 .about-us-items-icon {
     padding: 70px 0px;
-    font-size: 50px;
-}
+    font-size: 40px;
+}  */
 
+/* Abot us section end */
