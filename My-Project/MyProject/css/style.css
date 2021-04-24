@@ -289,3 +289,38 @@ a:hover {
 .item-logo:hover {
     transform: translateY(20px);
 }
+
+/* why choose us section end */
+
+/* Abot us section start */
+
+.about-us-container {
+ background-color: #76808A;
+ margin: 50px 0px;
+ display: flex;
+}
+
+.about-us-items-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    font-size: 25px;
+    
+}
+
+.about-us-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: auto auto; */
+    color: #fff;
+}
+
+.big {
+    font-size: 50px;
+}
+
+.about-us-items-icon {
+    padding: 70px 0px;
+    font-size: 50px;
+}
+
