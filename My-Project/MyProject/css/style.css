@@ -406,7 +406,7 @@ a:hover {
 .our-clients-content p {
     color: #ADADAD;
     font-family: 'Roboto', sans-serif;
-    
+
 }
 
 /* Our clients section end */
@@ -416,21 +416,62 @@ a:hover {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
-    
+
 }
 
 
 .partner-logo {
- width: 100%;
- height: 100%;
- display: flex;
- justify-content: space-evenly;
- align-items: center;
- 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
 /* Our Partner section end  */
 
+/* Contact information section start */
+
+
+#contact-information {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    border: 1px solid black;
+}
+
+.contact-info-icon {
+    font-size: 40px;
+    padding-left: 70px;
+
+}
+
+.contact-info-item {
+    border: 1px solid blue;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #23242A;
+    color: #F1F1F1;
+}
+
+.contact-info-item a {
+    text-decoration: none;
+    color: #F1F1F1;
+}
+
+.contact-info-item-1 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    padding-top: 90px;
+    background-color: #34353B;
+    border: 1px solid white;
+    
+}
 
 
 
@@ -438,4 +479,6 @@ a:hover {
 
 
 
-/* Our clients section end */
+
+
+/* Contact information section end */
