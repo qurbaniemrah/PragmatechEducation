@@ -439,39 +439,142 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    border: 1px solid black;
+
 }
 
 .contact-info-icon {
     font-size: 40px;
-    padding-left: 70px;
+    /* padding-left: 70px; */
+    padding-left: 10px;
 
 }
 
 .contact-info-item {
-    border: 1px solid blue;
+    width: 100%;
+    height: 100%;
     display: grid;
     grid-template-columns: auto auto;
     background-color: #23242A;
     color: #F1F1F1;
+
+    padding-top: 50px;
+
 }
 
 .contact-info-item a {
     text-decoration: none;
     color: #F1F1F1;
+    font-size: 40px;
 }
 
 .contact-info-item-1 {
-    width: 100%;
-    height: 100%;
+    width: 500px;
+    height: 100px;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+
     padding-top: 90px;
     background-color: #34353B;
-    border: 1px solid white;
-    
+
+
+
+    position: relative;
+    overflow: hidden;
+    transform: skew(30deg);
 }
+
+.contact-info-ip {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: skew(-30deg);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+}
+
+.contact-info-item-2 {
+    width: 100%;
+    height: 100%;
+}
+
+.subscribe-heading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribe-content {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-items-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+
+    background-color: #23242A;
+}
+
+.footer-items {
+    /* border: 1px solid gray; */
+    width: 100%;
+    height: 100%;
+    padding: 100px 50px;
+    color: #fff;
+    display: grid;
+   
+}
+
+.aboutus-content-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+
+
+.aboutus-content-2 {
+    display: grid;
+
+}
+
+.line {
+    width: 100%;
+    background-color: #6A7688;
+}
+
+.vertical-line {
+    width: 50px;
+    height: 5px;
+    background-color: #00C7B4;
+    transform: rotate(90deg);
+    top: 5px;
+    left: -40px;
+    position: relative;
+}
+
+.aboutus-item {
+    position: relative;
+}
+
+
+
+
+
+
+
 
 
 
