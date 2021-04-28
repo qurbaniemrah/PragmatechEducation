@@ -1,7 +1,9 @@
 /* bu daimi istifade edeceyimiz struktur faylidir. Butun layihelerimde istifade olunacaq */
 
+
 body {
     margin: 0px;
+    font-family: 'PT Sans', sans-serif
 }
 
 .container-fluid {
