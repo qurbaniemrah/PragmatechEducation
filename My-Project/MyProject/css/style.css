@@ -465,11 +465,6 @@ a:hover {
 
 }
 
-.contact-info-item a {
-    text-decoration: none;
-    color: #F1F1F1;
-    font-size: 40px;
-}
 
 .contact-info-item-1 {
     width: 500px;
@@ -511,14 +506,34 @@ a:hover {
 .subscribe-heading {
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: space-between;
+    display: flex; 
     align-items: center;
 }
+
+.subscribe-heading p {
+   padding-left: 20px;
+}
+
+
 
 .subscribe-content {
     width: 100%;
     height: 100%;
+}
+
+.footer-email {
+    padding: 20px 10px;
+    width: 80%;
+    background: none;
+    border: 1px solid #fff;
+}
+
+.footer-email-button {
+    /* width: 10%; */
+    padding: 20px 10px;
+    background: blue;
+    color: white;
+    border: none;
 }
 
 /* Contact information section end */
@@ -548,13 +563,17 @@ a:hover {
 .aboutus-content {
     display: flex;
     justify-content: space-between;
-  
+    padding: 20px 0px;
 }
 
 .aboutus-content-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
+}
+
+.aboutus-content-1 a {
+    color: #fff;
 }
 
 
@@ -574,13 +593,18 @@ a:hover {
     height: 5px;
     background-color: #00C7B4;
     transform: rotate(90deg);
-    top: 5px;
+    top: 20px;
     left: -40px;
     position: relative;
 }
 
 .aboutus-item {
     position: relative;
+}
+
+.aboutus-content a {
+    color:#574D42;
+    font-size: 15px;
 }
 
 
