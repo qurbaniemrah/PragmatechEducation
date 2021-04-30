@@ -22,6 +22,10 @@ li {
 
 }
 
+.logo {
+    padding: 15px 0px;
+}
+
 .logo:hover {
     cursor: pointer;
 }
@@ -56,6 +60,16 @@ hr {
 
 .login {
     border: none;
+    font-size: 30px;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login:hover {
+    background-color: blue;
+    color: #fff;
 }
 
 .nav-bar {
