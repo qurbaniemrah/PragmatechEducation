@@ -86,8 +86,10 @@ hr {
     cursor: pointer;
 }
 
-.login a:hover {
-    color:#ffffff ;
+.login:hover a {
+    color: #ffffff;
+    transition: 1s ease;
+    cursor: pointer;
 }
 
 .nav-bar {
@@ -152,6 +154,7 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    /* font-family: 'Space Mono', monospace; */
     font-family: 'Space Mono', monospace;
 }
 
@@ -223,8 +226,8 @@ ul {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     gap: 20px;
-    font-family: 'Space Mono', monospace;
 
+    font-family: 'Space Mono', monospace;
 }
 
 .service-item {
@@ -274,6 +277,7 @@ ul {
     border-color: transparent;
 }
 
+
 /* 
 @keyframes  example {
     from {background-color: transparent;}
@@ -310,6 +314,7 @@ ul {
     grid-template-rows: auto auto auto;
     gap: 20px;
     font-family: 'Space Mono', monospace;
+
 }
 
 .pricing-plan-item {
@@ -357,6 +362,7 @@ ul {
     grid-template-rows: auto auto auto;
     gap: 20px;
     font-family: 'Space Mono', monospace;
+    /* font-family: 'Lato', sans-serif; */
 }
 
 .why-choose-us-item {
@@ -686,9 +692,22 @@ ul {
     position: relative;
 }
 
+.aboutus-content li {
+    padding: 0px 10px;
+}
+
 .aboutus-content a {
     color: #574D42;
     font-size: 15px;
+
+}
+
+.aboutus-content a:hover {
+    color: #47D6CC;
+}
+
+.aboutus-content i {
+    color: #47D6CC;
 }
 
 

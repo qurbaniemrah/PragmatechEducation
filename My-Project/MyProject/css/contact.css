@@ -35,6 +35,10 @@
     padding: 50px 0px;
 }
 
+.contact-form-sides h1 {
+    padding-left: 10px;
+}
+
 .contact-form-items {
     padding: 10px 15px;
 
@@ -48,6 +52,28 @@
   display: grid;
   grid-template-columns: auto auto
   
+
+}
+
+
+.contact-form-input input {
+    margin: 10px 10px;
+    padding: 10px 0px;
+    
+}
+
+.contact-form-input textarea {
+    margin: 0px 10px;
+}
+
+.contact-form-input button {
+    font-size: 20px;
+    margin: 10px 0px;
+   background-color:#00C4BA;
+    border: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    color: #fff;
 }
 
 /* Contact form section end */
