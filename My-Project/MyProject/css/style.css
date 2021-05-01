@@ -6,7 +6,7 @@
 
 a {
     text-decoration: none;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 li {
@@ -18,7 +18,7 @@ li {
     width: 100%;
     display: flex;
     margin: 20px 0px;
-
+    font-family: 'Lato', sans-serif;
 
 }
 
@@ -28,6 +28,10 @@ li {
 
 .logo:hover {
     cursor: pointer;
+}
+
+.search i {
+    font-size: 23px;
 }
 
 
@@ -60,16 +64,30 @@ hr {
 
 .login {
     border: none;
-    font-size: 30px;
-    background-color:transparent;
+    font-size: 12px;
+    background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 8px 17px;
+    background-color: #EAECED;
+
+}
+
+.login i {
+    padding-right: 8px;
 }
 
 .login:hover {
-    background-color: blue;
-    color: #fff;
+    background-color: #00a9ff;
+    ;
+    color: #ffffff;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.login a:hover {
+    color:#ffffff ;
 }
 
 .nav-bar {
@@ -99,14 +117,18 @@ ul {
 
 
 
-a {
+.nav-bar a {
     text-decoration: none;
     color: #333333;
     font-family: 'PT Sans', sans-serif;
-    font: 13px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: .1em;
+
 }
 
-a:hover {
+.nav-bar a:hover {
     color: #00C9B2;
 }
 
@@ -126,10 +148,11 @@ a:hover {
 .slide {
     padding: 100px 0px;
     /* border: 1px solid gray; */
-    background-image: url(/My-Project/MyProject/img/slider-classic-slide-1-1920x710.jpg);
+    background-image: url(../img/slider-classic-slide-1-1920x710.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    font-family: 'Space Mono', monospace;
 }
 
 .slide-content {
@@ -200,6 +223,7 @@ a:hover {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     gap: 20px;
+    font-family: 'Space Mono', monospace;
 
 }
 
@@ -214,10 +238,16 @@ a:hover {
 
 .service-item h2 {
     color: #565656;
+    font-size: 25px;
+    font-weight: 200;
+    padding: 20px 0px;
 }
 
 .service-item p {
     color: #565656;
+    font-size: 13px;
+    font-weight: 50;
+    padding: 20px 0px;
 }
 
 .icon {
@@ -235,11 +265,13 @@ a:hover {
 }
 
 .services-button {
-    background-color: transparent;
+    background-color: #eaeced;
     display: inline-block;
     padding: 10px 20px;
     cursor: pointer;
-
+    color: #151515;
+    ;
+    border-color: transparent;
 }
 
 /* 
@@ -277,21 +309,42 @@ a:hover {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     gap: 20px;
+    font-family: 'Space Mono', monospace;
 }
 
 .pricing-plan-item {
     box-shadow: 0px opx 5px black;
-
-    padding: 0px 10px;
+    background-color: transparent;
+    padding: 10px 10px;
     text-align: center;
 }
 
+.pricing-plan-item h1 {
+    font-size: 25px;
+    color: #151515;
+    letter-spacing: .075em;
+    font-weight: 300;
+    padding: 15px 0px;
+}
+
+
+
+.pricing-plan-item p {
+    font-size: 13px;
+    color: #151515;
+    letter-spacing: .075em;
+    font-weight: 100;
+    padding: 15px 0px;
+}
+
 .price {
-    font-size: 70px;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 .pricing-plan-button {
     border: aqua;
+    padding: 10px 0px;
 }
 
 /* Pricing plan section end */
@@ -303,13 +356,23 @@ a:hover {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     gap: 20px;
-
+    font-family: 'Space Mono', monospace;
 }
 
 .why-choose-us-item {
     display: grid;
     grid-template-columns: 1fr 3fr;
     text-align: center;
+}
+
+.item-text h4 {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.item-text p {
+    font-size: 15px;
+    font-weight: 100;
 }
 
 .item-logo {
@@ -331,6 +394,7 @@ a:hover {
     background-color: #76808A;
     margin: 50px 0px;
     display: flex;
+    font-family: 'Space Mono', monospace;
 }
 
 .about-us-items-container {
@@ -416,6 +480,7 @@ a:hover {
     grid-template-rows: auto auto;
     gap: 30px;
     margin: 0 auto;
+    font-family: 'Space Mono', monospace;
 }
 
 .our-clients-items {
@@ -439,7 +504,7 @@ a:hover {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
-
+    font-family: 'Space Mono', monospace;
 }
 
 
@@ -462,7 +527,7 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-
+    font-family: 'Space Mono', monospace;
 }
 
 .contact-info-icon {
@@ -525,12 +590,12 @@ a:hover {
 .subscribe-heading {
     width: 100%;
     height: 100%;
-    display: flex; 
+    display: flex;
     align-items: center;
 }
 
 .subscribe-heading p {
-   padding-left: 20px;
+    padding-left: 20px;
 }
 
 
@@ -565,7 +630,7 @@ a:hover {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-
+    font-family: 'Space Mono', monospace;
     background-color: #23242A;
 }
 
@@ -622,7 +687,7 @@ a:hover {
 }
 
 .aboutus-content a {
-    color:#574D42;
+    color: #574D42;
     font-size: 15px;
 }
 

@@ -11,7 +11,7 @@ a {
 #picture-container {
     width: 100%;
     height: 100%;
-    background-image: url(../img/bg-image-11-1920x550.jpg);
+    background-image: url(../img/bg-image-8-1920x1000.jpg);
     background-size: cover;
     background-repeat: no-repeat;
    
@@ -50,6 +50,21 @@ justify-content: space-between;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     padding: 0px 40px;
+}
+
+.developing-item button {
+    font-size: 20px;
+    padding: 15px 8px;
+    border: none;
+   
+    cursor: pointer;
+    background-color: #fff;
+  color: #D8D8D8;
+    border: 1px solid #E5E7E9;
+}
+
+.developing-item button:hover {
+    background-color: #00a9ff;
 }
 
 /* Developing section end */
