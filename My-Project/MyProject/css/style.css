@@ -134,6 +134,24 @@ ul {
     color: #00C9B2;
 }
 
+.nav-bar-mobile {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.nav-bar-mobile ul  {
+display: block;
+}
+
+.nav-bar-mobile li {
+    padding: 10px 0px;
+}
+
+.nav-bar-mobile a:hover {
+    color:#00a9ff;
+}
+
 /* .nav-bar .search {
 
     display: flex;
@@ -183,7 +201,7 @@ ul {
     background-color: #01C5BA;
     /* padding: 20px 20px; */
     padding: 10px 20px;
-    transition: 2s;
+    transition:all .2s ease;
     /* border-radius: 10px; */
 
 }
