@@ -1,6 +1,40 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .nav-bar {
+    display: none;
+  }
+
+ .nav-bar-mobile {
+   opacity: 1;
+ }
+
+ .nav-bar-mobile ul {
+   opacity: 0;
+ }
+
+ .nav-bar-mobile:hover ul {
+   opacity: 1;
+ }
+
+ /* .slide {
+   box-sizing: border-box;
+   width: 100%;
+   margin: 0;
+ } */
+
+ .slide-content {
+   width: 100%;
+   margin: 0;
+   background-position: center;
+ }
+
+
+
+  
+
+   
     
+
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
