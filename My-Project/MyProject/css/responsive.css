@@ -6,6 +6,7 @@
 
  .nav-bar-mobile {
    opacity: 1;
+   
  }
 
  .nav-bar-mobile ul {
@@ -15,6 +16,8 @@
  .nav-bar-mobile:hover ul {
    opacity: 1;
  }
+
+
 
  /* .slide {
    box-sizing: border-box;
@@ -37,14 +40,20 @@
  }
 
  .service-heading {
-   width: 80%;
-  
+   width: 50%;
+   box-sizing: border-box;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
  }
 
  #service-container {
    width: 50%;
   display: block;
  }
+
+
 
 
 
