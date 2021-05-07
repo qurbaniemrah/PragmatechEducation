@@ -36,6 +36,16 @@
    padding: 0px;
  }
 
+ .service-heading {
+   width: 80%;
+  
+ }
+
+ #service-container {
+   width: 50%;
+  display: block;
+ }
+
 
 
   

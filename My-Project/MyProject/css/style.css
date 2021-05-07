@@ -639,6 +639,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     font-size: large;
+    padding-left: 10px;
 }
 
 .contact-info-item-2 {
@@ -669,6 +670,8 @@ ul {
     width: 80%;
     background: none;
     border: 1px solid #fff;
+    color: #fff;
+    
 }
 
 .footer-email-button {
