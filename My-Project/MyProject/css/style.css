@@ -201,7 +201,17 @@ ul {
 /* Container header end */
 
 /* slide section start */
+#slider {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .slide {
+    width: 100%;
+    height: 100%;
     padding: 100px 0px;
     /* border: 1px solid gray; */
     background-image: url(../img/slider-classic-slide-1-1920x710.jpg);
@@ -210,7 +220,23 @@ ul {
     background-position: center center;
     /* font-family: 'Space Mono', monospace; */
     font-family: 'Space Mono', monospace;
+  
 }
+
+.slide-2 {
+    width: 100%;
+    height: 100%;
+    padding: 100px 0px;
+    /* border: 1px solid gray; */
+    background-image: url(../img/slider-classic-slide-2-1920x710.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* font-family: 'Space Mono', monospace; */
+    font-family: 'Space Mono', monospace;
+}
+
+
 
 .slide-content {
     /* max-width: 400px; */
