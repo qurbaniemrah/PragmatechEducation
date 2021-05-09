@@ -1,0 +1,21 @@
+#slider {
+    position: relative;
+    width:100%;
+    height: 100%;
+
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    border: 1px solid gray;
+    position: absolute;
+    left: 30%;
+    top: 100px;
+    background-image: url(../MyProject/img/team-1-230x211.jpg);
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .5s ease;
+    transform: translateX(200px);
+}
