@@ -11,6 +11,12 @@
 
  .nav-bar-mobile ul {
    opacity: 0;
+  
+ }
+
+ .nav-bar-mobile li {
+   padding-top: 10px;
+   float: left;
  }
 
  .nav-bar-mobile:hover ul {
