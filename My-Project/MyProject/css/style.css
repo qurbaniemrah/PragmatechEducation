@@ -23,7 +23,7 @@ li {
     display: flex;
     margin: 20px 0px;
     font-family: 'Lato', sans-serif;
-
+    border-bottom: 1px solid gray;
 }
 
 .logo {
@@ -31,7 +31,7 @@ li {
 }
 
 .logo img {
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 .logo:hover {
@@ -193,22 +193,64 @@ ul {
 
 
 /* .nav-bar .search {
-
     display: flex;
     justify-content: flex-end;
     align-items:flex-end;
     padding: 0px 100px;
    
-
 } */
 
 /* Container header end */
 
-/* mini container section start */
-#mini-container-header {
+/* Mini navbar section start */
+#mini-nav-bar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: #fff;
     display: none;
+    border-bottom: 1px solid transparent;
 }
-/* mini container section end */
+
+#mini-nav-bar .logo {
+position: absolute;
+width: 100%;
+height: 100%;
+left: 67px;
+top: 0px;
+overflow: hidden;
+object-fit: cover;
+background-size: cover;
+}
+
+#mini-nav-bar .mini-nav-bar-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.mini-nav-bar-item ul {
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    left: 100px;
+}
+
+
+
+
+/* Mini nav bar section end */
+
+
 
 /* slide section start */
 #slider {
@@ -218,7 +260,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-    
+    margin: 100px 0px;
 
 }
 
