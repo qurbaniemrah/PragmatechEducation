@@ -13,6 +13,10 @@ li {
     list-style-type: none;
 }
 
+.mini-section {
+    display: none;
+}
+
 /* Container header start */
 #container-header {
     width: 100%;
@@ -199,6 +203,12 @@ ul {
 } */
 
 /* Container header end */
+
+/* mini container section start */
+#mini-container-header {
+    display: none;
+}
+/* mini container section end */
 
 /* slide section start */
 #slider {
