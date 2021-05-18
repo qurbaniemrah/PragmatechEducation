@@ -13,7 +13,7 @@ window.onscroll = function () {
         miniNavBar.style.position = 'fixed';
         miniNavBar.style.top = 0;
         miniNavBar.style.left = 0;
-        slideDirection.style.opacity = 0;
+      
     } else if (window.pageYOffset < 200) {
         containerHeader.style.display = 'block';
         miniNavBar.style.display = 'none';

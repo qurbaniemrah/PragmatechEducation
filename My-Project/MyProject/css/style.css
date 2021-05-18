@@ -71,7 +71,7 @@ li {
 }
 
 .social-links {
-   padding-right: 100px;
+    padding-right: 100px;
 }
 
 hr {
@@ -220,7 +220,7 @@ ul {
 /* Mini navbar section start */
 #mini-nav-bar {
     width: 100%;
-    height: 100px;
+    padding: 40px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -234,7 +234,7 @@ ul {
 #mini-nav-bar .logo {
     position: absolute;
     width: 100%;
-    height: 100%;
+   padding: 0px;
     left: 67px;
     top: 0px;
     overflow: hidden;
@@ -260,8 +260,6 @@ ul {
     position: absolute;
     left: 100px;
 }
-
-
 
 
 /* Mini nav bar section end */
