@@ -1,0 +1,17 @@
+#box {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 30%;
+    border: 1px solid gray;
+}
+
+.simple {
+    position: absolute;
+    left: 0px;
+}
+
+.different {
+    position: absolute;
+    right: 0px;
+}

@@ -13,7 +13,7 @@ window.onscroll = function () {
         miniNavBar.style.position = 'fixed';
         miniNavBar.style.top = 0;
         miniNavBar.style.left = 0;
-      
+
     } else if (window.pageYOffset < 200) {
         containerHeader.style.display = 'block';
         miniNavBar.style.display = 'none';
@@ -29,12 +29,13 @@ window.onscroll = function () {
 // top menu section end
 
 // slider section start
+// let sliderContainer = document.getElementById('slider-container');
+// let firstImage = document.getElementsByClassName('first-image');
+// let secondImage = document.getElementsByClassName('second-image');
 
 
-// let slide = document.getElementsByClassName('slide');
-// let slideDirection = document.getElementsByClassName('slide-direction');
-// let slideLeft = document.getElementsByClassName('slide-left');
-// let slideRight = document.getElementsByClassName('slide-right');
+
+// slider section end
 
 
 
