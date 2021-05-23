@@ -271,74 +271,29 @@ ul {
 /* slide section start */
 #slider-container {
     width: 100%;
-    display: flex;
-    background-size: cover;
-}
-
-.first-image {
-    width: 100%;
-    background-size: cover;
-    z-index: -1;
-}
-
-.second-image {
-    width: 100%;
-    background-size: cover;
     
 }
 
-.slide-content {
-    /* max-width: 400px; */
-    top: 50%;
+.slider-images {
     width: 100%;
-    padding-left: 130px;
+    z-index: -1;
+    background-size: cover;
+    display: flex;
+     position: relative;
+}
+
+.slider-images img {
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.slider-content {
+    position:absolute;
     background-position: center;
-    position: absolute;
-    background-repeat: no-repeat;
-    z-index: 0;
-}
-
-
-
-
-
-.button {
-
-    display: inline-block;
-    background-color: #01C5BA;
-    /* padding: 20px 20px; */
-    padding: 10px 20px;
-    transition: all .2s ease;
-    /* border-radius: 10px; */
-
-}
-
-
-
-.button a {
-    color: #fff;
-    font-size: 25px;
-}
-
-.buttons {
-    position: relative;
-    width: 100%;
-}
-
-.left-button {
-    position: absolute;
     top: 50%;
-    left: 0px;
+    left: 30%;
 }
-
-.right-button {
-    position: absolute;
-    top: 50%;
-    right: 0px;
-}
-
-
-
 /* slide section end */
 
 /* Service hedading section start */
