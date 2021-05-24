@@ -29,57 +29,12 @@ window.onscroll = function () {
 // top menu section end
 
 // slider section start
-let sliderImages = document.getElementsByClassName('slider-images');
-let leftButton = document.getElementsByClassName('left');
-let rightButton = document.getElementsByClassName('right'); 
-
-for (i=0; i<leftButton.length; i++) {
-    console.log(leftButton[i]);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-// slider section end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+let sliderImages = document.getElementsByClassName('slider-images')[0].clientWidth;
+let images = document.querySelectorAll('.slider-images img');
+let firstImage = images[0];
+let secondImage = images[1];
+let leftButton = document.querySelector('.left');
+let secondButton = document.querySelector('.right');
 
 
 
@@ -89,3 +44,42 @@ for (i=0; i<leftButton.length; i++) {
 
 
 // slider section end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
