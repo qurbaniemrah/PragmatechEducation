@@ -29,9 +29,11 @@ window.onscroll = function () {
 // top menu section end
 
 // slider section start
-// let sliderContainer = document.getElementById('slider-container');
-// let firstImage = document.getElementsByClassName('first-image');
-// let secondImage = document.getElementsByClassName('second-image');
+let sliderImages = document.querySelector('img');
+let leftButton = document.getElementsByClassName('left');
+let rightButton = document.getElementsByClassName('right');
+
+
 
 
 
