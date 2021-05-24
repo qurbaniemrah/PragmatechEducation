@@ -271,15 +271,35 @@ ul {
 /* slide section start */
 #slider-container {
     width: 100%;
-    
+
 }
 
 .slider-images {
     width: 100%;
     z-index: -1;
-    background-size: cover;
     display: flex;
-     position: relative;
+
+
+}
+
+/* .slider-images .slider-buttons {
+    width: 100%;
+    position: relative;
+    
+} */
+
+.left {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+  
+}
+
+.right {
+
+    position: absolute;
+    top: 50%;
+    right: 0px;
 }
 
 .slider-images img {
@@ -289,11 +309,12 @@ ul {
 }
 
 .slider-content {
-    position:absolute;
+    position: absolute;
     background-position: center;
     top: 50%;
     left: 30%;
 }
+
 /* slide section end */
 
 /* Service hedading section start */
