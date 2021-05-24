@@ -35,6 +35,12 @@ let firstImage = images[0];
 let secondImage = images[1];
 let leftButton = document.querySelector('.left');
 let secondButton = document.querySelector('.right');
+let left = 0;
+
+leftButton.addEventListener('click',leftButton);
+
+
+
 
 
 
