@@ -271,15 +271,14 @@ ul {
 /* slide section start */
 #slider-container {
     width: 100%;
-
+    display: flex;
+   
 }
 
 .slider-images {
     width: 100%;
     z-index: -1;
     display: flex;
-
-
 }
 
 /* .slider-images .slider-buttons {
@@ -293,7 +292,7 @@ ul {
     background-color: #00AEEF;
     border: none;
     color: #FEFEFE;
-    padding: 13px;
+    padding: 5px 20px;
 }
 
 .read-more a {
@@ -335,7 +334,7 @@ ul {
 .slider-content {
     position: absolute;
     background-position: center;
-    top: 30%;
+    top: 35%;
     left: 15%;
     padding: 20px 0px;
 }
