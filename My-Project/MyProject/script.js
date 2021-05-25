@@ -30,26 +30,39 @@ window.onscroll = function () {
 
 // slider section start
 let imagesWidth = document.querySelector('.slider-images').clientWidth;
-let images = document.querySelectorAll('.slider-images img');
+let images = document.querySelectorAll('.slider-images ');
 let firstImage = images[0];
 let secondImage = images[1];
 let leftButton = document.querySelector('.left');
 let rightButton = document.querySelector('.right');
 let leftValue = 0
-
-
-leftButton.addEventListener('click',function myFunction(){
-    firstImage.style.display='none';
-    secondImage.style.display='block';
-})
-
-rightButton.addEventListener('click',function myFunction(){
-    secondImage.style.display='none';
-    firstImage.style.display='block';
-})
+let rightValue = 0
 
 
 
+rightButton.onclick = () => {
+    leftValue += imagesWidth
+    if (leftValue>(images.length-1)*imagesWidth){
+        leftValue = 0;
+    }
+        for (let i = 0; i < images.length; i++) {
+            images[i].style.left = -leftValue + 'px';
+        }
+
+
+}
+
+leftButton.onclick = () => {
+    leftValue -= imagesWidth
+    if (leftValue>(images.length-1)*imagesWidth){
+        leftValue = 0;
+    }
+    for (let i = 0; i < images.length; i++) {
+        images[i].style.left = leftValue + 'px';
+    }
+
+   
+}
 
 
 
@@ -69,42 +82,3 @@ rightButton.addEventListener('click',function myFunction(){
 
 
 // slider section end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

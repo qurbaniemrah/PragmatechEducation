@@ -272,13 +272,18 @@ ul {
 #slider-container {
     width: 100%;
     display: flex;
-   
+    overflow: hidden;
 }
 
 .slider-images {
+    position: relative;
     width: 100%;
     z-index: -1;
     display: flex;
+    overflow: hidden;
+    flex: none;
+    left: 0px;
+    transition: 1s ease;
 }
 
 /* .slider-images .slider-buttons {
