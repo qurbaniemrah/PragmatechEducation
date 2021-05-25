@@ -29,15 +29,34 @@ window.onscroll = function () {
 // top menu section end
 
 // slider section start
-let sliderImages = document.getElementsByClassName('slider-images')[0].clientWidth;
+let imagesWidth = document.querySelector('.slider-images').clientWidth;
 let images = document.querySelectorAll('.slider-images img');
 let firstImage = images[0];
 let secondImage = images[1];
 let leftButton = document.querySelector('.left');
-let secondButton = document.querySelector('.right');
-let left = 0;
+let rightButton = document.querySelector('.right');
+let leftValue = 0
 
-leftButton.addEventListener('click',leftButton);
+
+leftButton.addEventListener('click',function myFunction(){
+    firstImage.style.display='none';
+    secondImage.style.display='block';
+})
+
+rightButton.addEventListener('click',function myFunction(){
+    secondImage.style.display='none';
+    firstImage.style.display='block';
+})
+
+
+
+
+
+
+
+
+
+
 
 
 
