@@ -39,7 +39,7 @@ let leftValue = 0
 let rightValue = 0
 
 
-
+//buttons
 rightButton.onclick = () => {
     leftValue += imagesWidth
     if (leftValue>(images.length-1)*imagesWidth){
