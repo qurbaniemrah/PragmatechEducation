@@ -33,7 +33,7 @@ function key(key) {
     }
 }
 //1 ml san 15 defe dondurmek ucun
-setInterval(loop, 1000 / 15);
+setInterval(loop, 1000 / 13);
 
 function loop() {
     draw();
