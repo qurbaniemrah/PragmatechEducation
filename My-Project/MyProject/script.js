@@ -36,7 +36,7 @@ let secondImage = images[1];
 let leftButton = document.querySelector('.left');
 let rightButton = document.querySelector('.right');
 let leftValue = 0
-let rightValue = 0
+
 
 
 //buttons
