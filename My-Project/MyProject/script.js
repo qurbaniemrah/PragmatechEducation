@@ -36,32 +36,35 @@ let secondImage = images[1];
 let leftButton = document.querySelector('.left');
 let rightButton = document.querySelector('.right');
 let leftValue = 0
+let rightValue = 0
+
 
 
 
 //buttons
 rightButton.onclick = () => {
     leftValue += imagesWidth
-    if (leftValue>(images.length-1)*imagesWidth){
+    if (leftValue > (images.length - 1) * imagesWidth) {
         leftValue = 0;
     }
-        for (let i = 0; i < images.length; i++) {
-            images[i].style.left = -leftValue + 'px';
-        }
+    for (let i = 0; i < images.length; i++) {
+        images[i].style.left = -leftValue + 'px';
+    }
 
 
 }
 
 leftButton.onclick = () => {
     leftValue -= imagesWidth
-    if (leftValue>(images.length-1)*imagesWidth){
+    if (leftValue < (images.length - 1) * imagesWidth) {
         leftValue = 0;
+        leftValue = (images.length-1)*imagesWidth
     }
     for (let i = 0; i < images.length; i++) {
-        images[i].style.left = leftValue + 'px';
+        images[i].style.left = -leftValue + 'px';
     }
 
-   
+
 }
 
 
