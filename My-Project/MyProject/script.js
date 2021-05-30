@@ -8,7 +8,7 @@ let containerHeaderImages = document.querySelectorAll('#container-header img');
 
 
 window.onscroll = function () {
-    if (window.pageYOffset > 190) {
+    if (window.pageYOffset > 200) {
         containerHeader.style.display = 'none';
         miniNavBar.style.display = 'block';
         miniNavBar.style.position = 'fixed';
@@ -16,7 +16,7 @@ window.onscroll = function () {
         miniNavBar.style.left = 0;
        
 
-    } else if (window.pageYOffset < 190) {
+    } else if (window.pageYOffset < 200) {
         containerHeader.style.display = 'block';
         miniNavBar.style.display = 'none';
         containerHeader.style.display = 'relative';
@@ -70,7 +70,7 @@ leftButton.onclick = () => {
 
 }
 
-
+//slider section end
 
 
 

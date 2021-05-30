@@ -610,6 +610,18 @@ ul {
 
 }
 
+.about-heading {
+    padding: 30px 0px;
+    font-size: 20px;
+}
+
+.about-description {
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+
+
 .big {
     font-size: 50px;
 }
