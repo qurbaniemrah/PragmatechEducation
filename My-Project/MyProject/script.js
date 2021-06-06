@@ -73,6 +73,11 @@ leftButton.onclick = () => {
 //slider section end
 
 
+//preloader section start
+
+
+
+
 
 
 
