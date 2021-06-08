@@ -21,3 +21,12 @@ for (i = 0; i < arr.length; i++) {
 
 //massivdəki ədədlərin cəmini tapın
 
+
+for (i = 0; i < arr.length; i++) {
+   console.log(arr[i] +=arr[i]);
+    
+}
+
+//hell edildi
+
+
