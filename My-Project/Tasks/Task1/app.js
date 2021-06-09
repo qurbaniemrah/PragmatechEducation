@@ -29,4 +29,14 @@ for (i = 0; i < arr.length; i++) {
 
 //hell edildi
 
+//massivdəki ən böyük ədədi tapın
+
+for (i = 0; i < arr.length; i++) {
+    console.log(Math.max(arr[i]));
+     
+ }
+
+ //hell edildi
+
+
 
