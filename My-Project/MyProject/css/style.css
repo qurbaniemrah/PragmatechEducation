@@ -28,12 +28,25 @@ li {
 }
 
 .logo {
+    width: 100%;
+    height: 100%;
     padding: 15px 15px;
+   
 }
+
+.dropdown-menu i {
+    position: absolute;
+    font-size: 40px;
+    top: 25px;
+    color: #00C2C1;
+}
+
+
+
 
 .logo img {
     /* padding-left: 30px; */
-    padding: 0px auto;
+    padding-left: 60px;
 }
 
 .logo:hover {
