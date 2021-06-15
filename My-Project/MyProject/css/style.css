@@ -31,14 +31,32 @@ li {
     width: 100%;
     height: 100%;
     padding: 15px 15px;
-   
+
 }
+
+.dropdown-menu {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.dropdown-menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+
+
+
 
 .dropdown-menu i {
     position: absolute;
     font-size: 40px;
     top: 25px;
     color: #00C2C1;
+
 }
 
 
@@ -309,7 +327,7 @@ ul {
     flex: none;
     left: 0px;
     transition: 1s ease;
-   
+
 }
 
 /* .slider-images .slider-buttons {
@@ -699,7 +717,7 @@ ul {
     gap: 30px;
     margin: 0 auto;
     font-family: 'Space Mono', monospace;
-    
+
 }
 
 .our-clients-items {
@@ -708,7 +726,7 @@ ul {
     grid-template-rows: auto auto;
     gap: 50px;
     background-color: #FFFFFF;
-    
+
 }
 
 
@@ -716,8 +734,8 @@ ul {
 .our-clients-content p {
     color: #ADADAD;
     font-family: 'Roboto', sans-serif;
-    
-    
+
+
 }
 
 /* Our clients section end */
