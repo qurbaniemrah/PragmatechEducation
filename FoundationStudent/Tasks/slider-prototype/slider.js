@@ -8,6 +8,8 @@ let leftBtn = document.getElementsByClassName('left');
 let rightBtn = document.getElementsByClassName('right');
 let count =0;
 
+
+
 leftBtn[0].addEventListener('click', function () {
   if (count <1) {
     img.setAttribute('src', imgSrc[2]);
@@ -16,6 +18,7 @@ leftBtn[0].addEventListener('click', function () {
     img.setAttribute('src', imgSrc[count]);
     count --
   }
+  console.log('countun deyeri ' + count);
 })
 
 rightBtn[0].addEventListener('click', function () {
@@ -26,6 +29,7 @@ rightBtn[0].addEventListener('click', function () {
     img.setAttribute('src', imgSrc[count]);
     count ++
    }
+   console.log('countun deyeri ' + count);
 })
 
 
