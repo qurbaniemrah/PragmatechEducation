@@ -17,7 +17,34 @@
 }
 
 .hours {
-    width: 200px;
+    width: 130px;
+    border: 1px solid blue;
+    position: absolute;
+    top: 150px;
+    transform-origin: right center;
+    transform: rotate(45deg);
+    background-position: center;
+}
+
+.minutes {
+    width: 130px;
     color: black;
-    border: 1px solid black;
+    border: 1px solid red;
+    position: absolute;
+    top: 150px;
+    transform-origin: right center;
+    transform: rotate(90deg);
+    background-position: center;
+   
+}
+
+.seconds {
+    width: 130px;
+    color: black;
+    border: 1px solid green;
+    position: absolute;
+    top: 150px;
+    transform-origin: right center;
+    transform: rotate(180deg);
+    background-position: center;
 }
