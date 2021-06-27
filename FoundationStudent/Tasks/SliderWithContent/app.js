@@ -4,12 +4,11 @@ let images = document.querySelectorAll('img');
 let leftBtn = document.querySelector('.left');
 let rightBtn = document.querySelector('.right');
 
-let zero = 0;
+let left = 0;
 
-for (i=0; i<images.length;i++) {
-    console.log(images[i]);
+for (i=0; i<images.length; i++) {
+   
 }
-
 
 
 leftBtn.addEventListener('click', ()=> {
@@ -17,5 +16,5 @@ leftBtn.addEventListener('click', ()=> {
 });
 
 rightBtn.addEventListener('click', ()=> {
-    console.log('right clicked');
+  left += images;
 });
