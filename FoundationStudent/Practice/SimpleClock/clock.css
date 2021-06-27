@@ -33,7 +33,7 @@
     position: absolute;
     top: 150px;
     transform-origin: right center;
-    transform: rotate(90deg);
+    transform: rotate(0deg);
     background-position: center;
    
 }
@@ -45,6 +45,6 @@
     position: absolute;
     top: 150px;
     transform-origin: right center;
-    transform: rotate(180deg);
+    transform: rotate(0deg);
     background-position: center;
 }

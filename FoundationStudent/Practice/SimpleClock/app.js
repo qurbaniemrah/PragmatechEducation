@@ -1,18 +1,34 @@
-let hours = document.querySelector('.hours');
-let minutes = document.querySelector('.minutes');
-let seconds = document.querySelector('.seconds');
+let secondArrow=document.querySelector('.seconds')
+let minuteArrow = document.querySelector('.minutes');
 
-function increaseHours () {
 
+
+function clockFunc(){
+    d=new Date();
+    second=d.getSeconds()
+
+    secondRotateAmount=second*6
+
+    secondArrow.style.transform=`rotate(${secondRotateAmount}deg)`
+
+    secondRotateAmount+=6
+
+    d=new Date();
+    second=d.getMinutes()
+
+    minuteRotateAmount=minutes*30
+
+    minuteArrow.style.transform=`rotate(${minuteRotateAmount}deg)`
+
+    minuteRotateAmount+=30
 }
 
-function increaseMinutes () {
-    
-}
+setInterval(clockFunc,1000)
 
-function increaseSeconds () {
-    
-}
+
+
+
+
 
 
 
