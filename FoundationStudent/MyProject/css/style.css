@@ -445,8 +445,8 @@ ul {
 
 #service-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: auto auto ;
     gap: 20px;
 
     font-family: 'Space Mono', monospace;
