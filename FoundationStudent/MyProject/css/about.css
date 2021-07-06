@@ -138,7 +138,26 @@ a {
 
 /* Our mission and vision start */
 
+.vision {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    position: relative;
+}
 
+.vision-item {
+    text-align: center;
+   
+}
+
+.vision hr {
+    position: absolute;
+    border: 1px solid black;
+    width: 1px;
+    height: 100px;
+    transform: translate(100);
+    left:50%;
+}
 
 
 /* Our mission and vision end */
