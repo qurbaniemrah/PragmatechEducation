@@ -185,16 +185,35 @@ a {
     grid-template-columns: auto auto;
     gap: 50px;
     position: relative;
-   left: 20%;
+   left: 15%;
 }
 
 .worth li {
     border: 1px solid black;
-    padding: 10px 100px;
+    padding: 10px 150px;
     margin: 10px;
     background-color: #00C9B2;
     color: #fff;
 }
 /* Worth section end */
+
+/* Testin novleri */
+.test-type {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   gap: 30px;
+}
+
+.test-type-item {
+    width: auto     ;
+    height: 100px;
+    border: 1px solid gray;
+    background-color: #00C9B2;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* Testin novleri */
 
 
