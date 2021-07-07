@@ -183,7 +183,18 @@ a {
 .worth {
     display: grid;
     grid-template-columns: auto auto;
-}   
+    gap: 50px;
+    position: relative;
+   left: 20%;
+}
+
+.worth li {
+    border: 1px solid black;
+    padding: 10px 100px;
+    margin: 10px;
+    background-color: #00C9B2;
+    color: #fff;
+}
 /* Worth section end */
 
 
