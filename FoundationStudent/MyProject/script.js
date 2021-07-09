@@ -14,6 +14,7 @@ window.onscroll = function () {
         miniNavBar.style.position = 'fixed';
         miniNavBar.style.top = 0;
         miniNavBar.style.left = 0;
+        
        
 
     } else if (window.pageYOffset < 120) {

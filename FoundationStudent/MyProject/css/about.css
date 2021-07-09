@@ -41,10 +41,10 @@ a {
 
 .about-container .overlay p {
     position: absolute;
-   width: 100%;
-   height: 100%;
-   top: 140px;
-   left: 100px;
+    width: 100%;
+    height: 100%;
+    top: 140px;
+    left: 100px;
 }
 
 .about-image {
@@ -146,10 +146,10 @@ a {
 }
 
 .vision-item {
-  
+
     text-align: center;
-    
-   
+
+
 }
 
 .vision-item p {
@@ -158,7 +158,7 @@ a {
 
 .vision-item i {
     font-size: 30px;
-    color:  #00C9B2;
+    color: #00C9B2;
     padding: 20px 0px;
 }
 
@@ -173,7 +173,7 @@ a {
     width: 1px;
     height: 200px;
     transform: translate(100);
-    left:50%;
+    left: 50%;
 }
 
 
@@ -185,7 +185,7 @@ a {
     grid-template-columns: auto auto;
     gap: 50px;
     position: relative;
-   left: 15%;
+    left: 15%;
 }
 
 .worth li {
@@ -195,17 +195,18 @@ a {
     background-color: #00C9B2;
     color: #fff;
 }
+
 /* Worth section end */
 
 /* Testin novleri */
 .test-type {
-   display: grid;
-   grid-template-columns: auto auto auto;
-   gap: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
 }
 
 .test-type-item {
-    width: auto     ;
+    width: auto;
     height: 100px;
     border: 1px solid gray;
     background-color: #00C9B2;
@@ -215,5 +216,3 @@ a {
 
 
 /* Testin novleri */
-
-
