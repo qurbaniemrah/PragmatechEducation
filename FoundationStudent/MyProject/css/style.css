@@ -381,7 +381,7 @@ ul {
 .left {
     position: absolute;
     left: 0px;
-    top: 40%;
+    top: 50%;
     font-size: 50px;
     color: #00a9ff;
     cursor: pointer;
@@ -393,7 +393,7 @@ ul {
 .right {
     position: absolute;
     right: 0px;
-    top: 40%;
+    top: 50%;
     font-size: 50px;
     color: #00a9ff;
     cursor: pointer;
@@ -412,7 +412,7 @@ ul {
 .slider-content {
     position: absolute;
     background-position: center;
-    top: 20%;
+    top: 30%;
     left: 15%;
     padding: 35px 160px;
     color: #388F75;
