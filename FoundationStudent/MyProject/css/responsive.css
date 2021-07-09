@@ -1,19 +1,33 @@
 @media (max-width:576px) {
-   
+    #container-header {
+        display: none;
+    }
+
+    .main-logo {
+        display: none;
+    }
+
+    .social-connect {
+        display: none;
+    }
+
+    #why-choose-us-container {
+        width: 100%;
+        height: 100%;
+        display: block;
+        overflow: hidden;
+    }
+
+    .why-choose-us-content {
+        width: 100%;
+        height: 100%;
+    }
 }
 
-@media (min-width:576px) and (max-width:768px) {
+@media (min-width:576px) and (max-width:768px) {}
 
-}
+@media (min-width:768px) and (max-width:992px) {}
 
-@media (min-width:768px) and (max-width:992px) {
+@media (min-width:992px) and (max-width:1200px) {}
 
-}
-
-@media (min-width:992px) and (max-width:1200px) {
-
-}
-
-@media (min-width:1200px) {
-    
-}
+@media (min-width:1200px) {}
