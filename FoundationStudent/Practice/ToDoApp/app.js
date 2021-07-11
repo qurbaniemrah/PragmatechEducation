@@ -1,14 +1,10 @@
-let todoContent = document.querySelector('.todo-content');
-let button = document.querySelector('.submit');
-let value = todoContent.value;
-let zero  = 0;
+let todoContainer = document.querySelector('.todo-container');
+let inputField = document.querySelector('.input-field');
+let btn = document.querySelector('.btn');
 
 
-
-button.addEventListener('click',()=>{
-  
-    console.log(todoContent.value);
-})
-
-
-
+btn.addEventListener('click', () => {
+    let paragraph = document.createElement('p');
+    paragraph.innerText = inputField.value;
+    document.appendChild(paragraph);
+});
