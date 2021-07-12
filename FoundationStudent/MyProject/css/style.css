@@ -25,7 +25,7 @@ li {
     font-family: 'Lato', sans-serif;
     margin: 0px auto;
     z-index: 2;
-
+  
 }
 
 .main-logo {
@@ -68,16 +68,21 @@ li {
 .dropdown-content {
     width: 100%;
     height: 100%;
+    display: none;
 }
 
-.dropdown-content-li a {
-    width: 100%;
-    height: 100%;
+.dropdown-content ul {
+   width: 100%;
+   height: 100%;
+   display: block;
 }
 
-.dropdown-content li a {
-    display: block;
+.dropdown-content-li {
+   padding: 30px 0px;
+
 }
+
+
 
 .search {
     position: absolute;
