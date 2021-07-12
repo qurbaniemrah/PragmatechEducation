@@ -5,6 +5,13 @@ let btn = document.querySelector('.btn');
 
 btn.addEventListener('click', () => {
     let paragraph = document.createElement('p');
+    document.body.appendChild(paragraph);
     paragraph.innerText = inputField.value;
-    document.appendChild(paragraph);
+    inputField.value = '';
+    paragraph.addEventListener('click',()=> {
+    document.body.removeChild(paragraph);
+    });
 });
+
+
+
