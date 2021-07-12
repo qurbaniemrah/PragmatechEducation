@@ -1,8 +1,21 @@
 @media (max-width:576px) {
-   #container-header {
+   
+   .dropdown-menu {
+       display: block;
+       position: relative;
+   }
+   
+   .main-logo {
        display: none;
    }
 
+   .information-section {
+       display: none;
+   }
+
+   #mini-nav-bar {
+       display: none;
+   }
 
     #slider-container {
         width: 100%;
