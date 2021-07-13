@@ -83,8 +83,27 @@
         width: 50%;
         height: 100%;
         display: block;
+        overflow: hidden;
+    }
+
+    .vision hr {
+        display: none;
+    }
+
+    .vision-item {
+        display: block;
+        font-size: 15px;
+        text-align: center;
+        overflow: hidden;
     }
     /* Our mission section end */
+
+    /* Deyerlerimiz section start */
+        .worth {
+            width: 50%;
+            display: block;
+        }
+    /* Deyerlerimiz section end */
 }
 
 @media (min-width:576px) and (max-width:768px) {}
