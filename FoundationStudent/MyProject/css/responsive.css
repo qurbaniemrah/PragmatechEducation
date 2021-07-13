@@ -3,6 +3,11 @@
     .dropdown-menu {
         display: block;
         position: relative;
+        color: #3F9DE3;
+    }
+
+    .dropdown-menu:hover {
+       display: block;
     }
 
     .main-logo {
@@ -33,7 +38,7 @@
         font-size: 20px;
         position: relative;
         top: 0px;
-
+       
     }
 
 
