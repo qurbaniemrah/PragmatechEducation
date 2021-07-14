@@ -14,8 +14,8 @@ window.onscroll = function () {
         miniNavBar.style.position = 'fixed';
         miniNavBar.style.top = 0;
         miniNavBar.style.left = 0;
-        
-       
+
+
 
     } else if (window.pageYOffset < 120) {
         containerHeader.style.display = 'block';
@@ -26,11 +26,38 @@ window.onscroll = function () {
         containerHeader.style.display = 'flex';
         containerHeader.style.width = '100%';
         containerHeader.style.margin = '0px';
-       
-    } 
+
+    }
 }
 
 // top menu section end
+
+
+// dropdown menu section start
+let dropdownMenu = document.querySelector('.dropdown-menu');
+let dropdownContent = document.querySelector('.dropdown-content');
+let ac = true;
+let bagla = false;
+
+dropdownMenu.addEventListener('click', ()=> {
+    if(ac==true) {
+        dropdownContent.style.display = 'block';
+    }else {
+       dropdownContent.style.display = 'none';
+    }
+
+    if(bagla==true) {
+        dropdownContent.style.display = 'none';
+    }else {
+       dropdownContent.style.display = 'block';
+    }
+})
+
+
+
+
+
+// dropdown menu section end
 
 // slider section start
 let imagesWidth = document.querySelector('.slider-images').clientWidth;
@@ -62,7 +89,7 @@ leftButton.onclick = () => {
     leftValue -= imagesWidth
     if (leftValue < 0) {
         leftValue = 0;
-        leftValue = (images.length-1)*imagesWidth
+        leftValue = (images.length - 1) * imagesWidth
     }
     for (let i = 0; i < images.length; i++) {
         images[i].style.left = -leftValue + 'px';
