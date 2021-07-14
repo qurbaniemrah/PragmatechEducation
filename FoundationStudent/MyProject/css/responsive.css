@@ -35,6 +35,14 @@
         overflow: hidden;
     }
 
+    .slider-content {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 1%;
+        left: 5%;
+    }
+
     .slider-content h2 {
         font-size: 20px;
         position: relative;
