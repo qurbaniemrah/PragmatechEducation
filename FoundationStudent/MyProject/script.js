@@ -36,22 +36,20 @@ window.onscroll = function () {
 // dropdown menu section start
 let dropdownMenu = document.querySelector('.dropdown-menu');
 let dropdownContent = document.querySelector('.dropdown-content');
-let ac = true;
-let bagla = false;
+let test = true;
 
-dropdownMenu.addEventListener('click', ()=> {
-    if(ac==true) {
+dropdownMenu.addEventListener('click',function () {
+    if(test == true) {
         dropdownContent.style.display = 'block';
+        test = false
     }else {
-       dropdownContent.style.display = 'none';
-    }
-
-    if(bagla==true) {
         dropdownContent.style.display = 'none';
-    }else {
-       dropdownContent.style.display = 'block';
+        test = true;
     }
+    
 })
+
+
 
 
 
