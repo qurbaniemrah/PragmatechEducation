@@ -7,7 +7,7 @@
         cursor: pointer;
     }
 
-  
+
 
 
     .dropdown-content {
@@ -19,16 +19,16 @@
         display: block;
     }
 
- 
+
 
     .dropdown-content li {
-       padding: 20px 0px;
+        padding: 20px 0px;
         font-size: 17px;
 
     }
 
     .dropdown-content li:hover {
-        background-color:#00A9FF;
+        background-color: #00A9FF;
         color: #fff;
     }
 
@@ -81,34 +81,34 @@
         font-size: 20px;
     }
 
-    
-.left {
-    position: absolute;
-    left: 0px;
-    top: 20%;
-    font-size: 30px;
-    color: #00a9ff;
-    cursor: pointer;
-    background: none;
-    border: none;
-    z-index: 0;
-    position: fixed;
-}
+
+    .left {
+        position: absolute;
+        left: 0px;
+        top: 20%;
+        font-size: 30px;
+        color: #00a9ff;
+        cursor: pointer;
+        background: none;
+        border: none;
+        z-index: 0;
+        position: fixed;
+    }
 
 
-.right {
-    position: absolute;
-    right: 0px;
-    top: 20%;
-    font-size: 30px;
-    color: #00a9ff;
-    cursor: pointer;
-    background: none;
-    border: none;
-    z-index: 0;
-    position: fixed;
+    .right {
+        position: absolute;
+        right: 0px;
+        top: 20%;
+        font-size: 30px;
+        color: #00a9ff;
+        cursor: pointer;
+        background: none;
+        border: none;
+        z-index: 0;
+        position: fixed;
 
-}
+    }
 
     /* Slider section end */
     /* Why choose us section start */
@@ -158,6 +158,20 @@
     }
 
     /* Deyerlerimiz section end */
+
+    /* Testin novleri section start */
+    .test-type {
+        width: 50%;
+        display: block;
+        object-fit: cover;
+    }
+
+    .test-type-item {
+        width: 100%;
+        object-fit: cover;
+        background-size: cover;
+    }
+    /* Testin novleri section end */
 }
 
 @media (min-width:576px) and (max-width:768px) {}

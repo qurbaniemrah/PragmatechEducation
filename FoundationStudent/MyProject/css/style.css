@@ -341,7 +341,7 @@ ul {
     overflow: hidden;
     margin: 0;
     padding: 0;
-
+    
 }
 
 .slider-images {
@@ -353,7 +353,6 @@ ul {
     flex: none;
     left: 0px;
     transition: 1s ease;
-    
 }
 
 /* .slider-images .slider-buttons {
@@ -390,7 +389,7 @@ ul {
     cursor: pointer;
     background: none;
     border: none;
-    z-index: 0;
+    z-index: 0 ;
     position: fixed;
 }
 
@@ -404,7 +403,7 @@ ul {
     background: none;
     border: none;
     z-index: 0;
-    position: fixed;
+    position: fixed; 
 
 }
 
