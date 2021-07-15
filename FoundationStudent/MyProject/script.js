@@ -42,9 +42,11 @@ dropdownMenu.addEventListener('click',function () {
     if(test == true) {
         dropdownContent.style.display = 'block';
         test = false
+        
     }else {
         dropdownContent.style.display = 'none';
         test = true;
+        
     }
     
 })
