@@ -336,10 +336,12 @@ ul {
 /* slide section start */
 #slider-container {
     width: 100%;
+    height: 100%;
     display: flex;
     overflow: hidden;
     margin: 0;
     padding: 0;
+
 }
 
 .slider-images {
@@ -351,7 +353,7 @@ ul {
     flex: none;
     left: 0px;
     transition: 1s ease;
-
+    
 }
 
 /* .slider-images .slider-buttons {
@@ -389,6 +391,7 @@ ul {
     background: none;
     border: none;
     z-index: 0;
+    position: fixed;
 }
 
 .right {
@@ -401,6 +404,8 @@ ul {
     background: none;
     border: none;
     z-index: 0;
+    position: fixed;
+
 }
 
 .slider-images img {
