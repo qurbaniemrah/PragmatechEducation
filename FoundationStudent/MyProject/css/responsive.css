@@ -12,7 +12,7 @@
 
     .dropdown-content {
         display: none;
-        position: absolute;
+        
     }
 
     .dropdown-content:hover {
@@ -55,10 +55,12 @@
     /* Slider section start */
     #slider-container {
         width: 100%;
-        height: 100%;
+        height: 200px;
         overflow: hidden;
         padding: 0;
         margin: 0;
+        position: relative;
+        
     }
 
     .slider-content {
@@ -85,29 +87,28 @@
     .left {
         position: absolute;
         left: 0px;
-        top: 20%;
+        top: 40%;
         font-size: 30px;
         color: #00a9ff;
         cursor: pointer;
         background: none;
         border: none;
         z-index: 0;
-        position: fixed;
+        overflow: hidden;
     }
 
 
     .right {
         position: absolute;
         right: 0px;
-        top: 20%;
+        top: 40%;
         font-size: 30px;
         color: #00a9ff;
         cursor: pointer;
         background: none;
         border: none;
         z-index: 0;
-        position: fixed;
-
+        overflow: hidden;
     }
 
     /* Slider section end */
@@ -127,7 +128,7 @@
 
     /* Our mission section start */
     .service-heading {
-        width: 50%;
+        width: 40%;
         font-size: 17px;
     }
 
@@ -143,6 +144,7 @@
     }
 
     .vision-item {
+        width: 80%;
         display: block;
         font-size: 15px;
         text-align: center;
@@ -153,7 +155,12 @@
 
     /* Deyerlerimiz section start */
     .worth {
-        width: 50%;
+        width: 100%;
+        display: block;
+    }
+
+    .worth-item {
+        width: 10px;
         display: block;
     }
 
@@ -171,20 +178,23 @@
         object-fit: cover;
         background-size: cover;
     }
+
     /* Testin novleri section end */
 
     /* Haqqimizda section picrure */
-    .overlay {
+    .about-container {
         width: 100%;
-        height: 100%;
-        background-size: cover;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    .about-container img {
         object-fit: cover;
     }
 
-    .overlay img {
-        width: 50%;
-        height: 100%;
-        object-fit: cover;
+    .about-container .overlay p {
+        position: absolute;
+        left: 0px;
     }
 
     /* Haqqimizda section picture */
