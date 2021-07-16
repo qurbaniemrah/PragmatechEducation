@@ -113,15 +113,14 @@
     /* Slider section end */
     /* Why choose us section start */
     #why-choose-us-container {
-        width: 40%;
+        width: 35%;
         display: block;
         overflow: hidden;
     }
 
-    .why-choose-us-content {
-        width: 100%;
-        height: 100%;
-    }
+   
+
+   
 
     /* Why choose us section end */
 
@@ -153,18 +152,17 @@
     /* Our mission section end */
 
     /* Deyerlerimiz section start */
-  .worth {
-      width: 100%;
-      display: block;
-      position: relative;
- 
-  }
-
-  .worth-item {
-      width: 100%;
-      left: 0px;
-      top: 0px;
+    .worth {
+        width: 40%;
+        display: block;
+        position: relative;
+        top: 0px;
+        left: 0;
+        text-align: center;
     }
+
+   
+
 
     /* Deyerlerimiz section end */
 
