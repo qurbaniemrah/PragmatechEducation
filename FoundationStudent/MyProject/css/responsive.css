@@ -12,7 +12,6 @@
 
     .dropdown-content {
         display: none;
-        
     }
 
     .dropdown-content:hover {
@@ -184,8 +183,7 @@
     /* Haqqimizda section picrure */
     .about-container {
         width: 100%;
-        object-fit: cover;
-        overflow: hidden;
+     
     }
 
     .about-container img {
@@ -198,6 +196,19 @@
     }
 
     /* Haqqimizda section picture */
+
+    /* Haqqimizda section testin novleri start */
+    .test-type {
+        width: 100%;
+        display: block;
+    }
+
+    .test-type-item {
+        width: 40%;
+        border: 1px solid #fff;
+        top: 2px;
+    }
+      /* Haqqimizda section testin novleri end */
 }
 
 @media (min-width:576px) and (max-width:768px) {}
