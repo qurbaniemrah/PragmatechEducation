@@ -59,7 +59,7 @@
         padding: 0;
         margin: 0;
         position: relative;
-        
+
     }
 
     .slider-content {
@@ -153,14 +153,17 @@
     /* Our mission section end */
 
     /* Deyerlerimiz section start */
-    .worth {
-        width: 100%;
-        display: block;
-    }
+  .worth {
+      width: 100%;
+      display: block;
+      position: relative;
+ 
+  }
 
-    .worth-item {
-        width: 10px;
-        display: block;
+  .worth-item {
+      width: 100%;
+      left: 0px;
+      top: 0px;
     }
 
     /* Deyerlerimiz section end */
@@ -183,7 +186,7 @@
     /* Haqqimizda section picrure */
     .about-container {
         width: 100%;
-     
+
     }
 
     .about-container img {
@@ -208,7 +211,8 @@
         border: 1px solid #fff;
         top: 2px;
     }
-      /* Haqqimizda section testin novleri end */
+
+    /* Haqqimizda section testin novleri end */
 }
 
 @media (min-width:576px) and (max-width:768px) {}
