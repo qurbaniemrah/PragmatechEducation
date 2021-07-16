@@ -187,16 +187,18 @@ a {
     grid-template-columns: auto auto;
     gap: 50px;
     position: relative;
-    left: 15%;
+    left: 38%;
+
 }
 
-.worth li {
-    border: 1px solid black;
-    padding: 10px 150px;
-    margin: 10px;
+.worth-item li {
+    border: 1px solid #fff;
+    padding: 20px;
     background-color: #00C9B2;
     color: #fff;
 }
+
+
 
 /* Worth section end */
 
