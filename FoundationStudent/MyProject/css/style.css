@@ -390,7 +390,6 @@ ul {
     background: none;
     border: none;
     z-index: 0 ;
-    position: fixed;
 }
 
 .right {
@@ -403,8 +402,6 @@ ul {
     background: none;
     border: none;
     z-index: 0;
-    position: fixed; 
-
 }
 
 .slider-images img {

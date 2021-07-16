@@ -52,6 +52,8 @@ a {
     height: 100%;
     background-size: cover;
     object-fit: cover;
+    margin: 0;
+    padding: 0;
 }
 
 .about-image img {
