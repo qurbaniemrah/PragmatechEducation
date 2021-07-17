@@ -241,10 +241,732 @@
       /* Elaqe melumatlari end */
 }
 
-@media (min-width:576px) and (max-width:768px) {}
+@media (min-width:576px) and (max-width:768px) {
+    .dropdown-menu {
+        display: block;
+        position: relative;
+        color: #3F9DE3;
+        cursor: pointer;
+    }
 
-@media (min-width:768px) and (max-width:992px) {}
 
-@media (min-width:992px) and (max-width:1200px) {}
 
-@media (min-width:1200px) {}
+
+    .dropdown-content {
+        display: none;
+    }
+
+    .dropdown-content:hover {
+        display: block;
+    }
+
+
+
+    .dropdown-content li {
+        padding: 20px 0px;
+        font-size: 17px;
+
+    }
+
+    .dropdown-content li:hover {
+        background-color: #00A9FF;
+        color: #fff;
+    }
+
+
+
+    .main-logo {
+        display: none;
+    }
+
+    .information-section {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+
+
+    .mini-nav-bar-item ul {
+        display: none;
+    }
+
+    /* Slider section start */
+    #slider-container {
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        position: relative;
+
+    }
+
+    .slider-content {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 1%;
+        left: 5%;
+    }
+
+    .slider-content h2 {
+        font-size: 20px;
+        position: relative;
+        top: 0px;
+
+    }
+
+
+    .slider-content p {
+        font-size: 20px;
+    }
+
+
+    .left {
+        position: absolute;
+        left: 0px;
+        top: 40%;
+        font-size: 30px;
+        color: #00a9ff;
+        cursor: pointer;
+        background: none;
+        border: none;
+        z-index: 0;
+        overflow: hidden;
+    }
+
+
+    .right {
+        position: absolute;
+        right: 0px;
+        top: 40%;
+        font-size: 30px;
+        color: #00a9ff;
+        cursor: pointer;
+        background: none;
+        border: none;
+        z-index: 0;
+        overflow: hidden;
+    }
+
+    /* Slider section end */
+    /* Why choose us section start */
+    #why-choose-us-container {
+        width: 35%;
+        display: block;
+        overflow: hidden;
+    }
+
+
+
+
+
+    /* Why choose us section end */
+
+    /* Our mission section start */
+    .service-heading {
+        width: 40%;
+        font-size: 17px;
+    }
+
+    .vision {
+        width: 50%;
+        height: 100%;
+        display: block;
+        overflow: hidden;
+    }
+
+    .vision hr {
+        display: none;
+    }
+
+    .vision-item {
+        width: 80%;
+        display: block;
+        font-size: 15px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    /* Our mission section end */
+
+    /* Deyerlerimiz section start */
+    .worth {
+        width: 40%;
+        display: block;
+        position: relative;
+        top: 0px;
+        left: 0;
+        text-align: center;
+    }
+
+
+
+
+    /* Deyerlerimiz section end */
+
+    /* Testin novleri section start */
+    .test-type {
+        width: 50%;
+        display: block;
+        object-fit: cover;
+    }
+
+    .test-type-item {
+        width: 100%;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    /* Testin novleri section end */
+
+    /* Haqqimizda section picrure */
+    .about-container {
+        width: 100%;
+
+    }
+
+    .about-container img {
+        object-fit: cover;
+    }
+
+    .about-container .overlay p {
+        position: absolute;
+        left: 0px;
+    }
+
+    /* Haqqimizda section picture */
+
+    /* Haqqimizda section testin novleri start */
+    .test-type {
+        width: 100%;
+        display: block;
+    }
+
+    .test-type-item {
+        width: 40%;
+        border: 1px solid #fff;
+        top: 2px;
+    }
+
+    /* Haqqimizda section testin novleri end */
+
+    /* Servisler section picture section start */
+    #picture-container {
+        width: 100%;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    /* Servisler section picture section end */
+    /* Servisler section xidmetler */
+     #service-container {
+         width: 40%;
+         display: block;
+     }
+     /* Servisler section xidmetler */
+     /* Elaqe melumatlari start */
+     .contact-form {
+         width: 100%;
+         display: block;
+         position: relative;
+     }
+
+ .contact-form-sides {
+     width: 100%;
+     position: relative;
+     left: 30%;
+ }
+      /* Elaqe melumatlari end */
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .dropdown-menu {
+        display: block;
+        position: relative;
+        color: #3F9DE3;
+        cursor: pointer;
+    }
+
+
+
+
+    .dropdown-content {
+        display: none;
+    }
+
+    .dropdown-content:hover {
+        display: block;
+    }
+
+
+
+    .dropdown-content li {
+        padding: 20px 0px;
+        font-size: 17px;
+
+    }
+
+    .dropdown-content li:hover {
+        background-color: #00A9FF;
+        color: #fff;
+    }
+
+
+
+    .main-logo {
+        display: none;
+    }
+
+    .information-section {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+
+
+    .mini-nav-bar-item ul {
+        display: none;
+    }
+
+    /* Slider section start */
+    #slider-container {
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        position: relative;
+
+    }
+
+    .slider-content {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 1%;
+        left: 5%;
+    }
+
+    .slider-content h2 {
+        font-size: 20px;
+        position: relative;
+        top: 0px;
+
+    }
+
+
+    .slider-content p {
+        font-size: 20px;
+    }
+
+
+    .left {
+        position: absolute;
+        left: 0px;
+        top: 40%;
+        font-size: 30px;
+        color: #00a9ff;
+        cursor: pointer;
+        background: none;
+        border: none;
+        z-index: 0;
+        overflow: hidden;
+    }
+
+
+    .right {
+        position: absolute;
+        right: 0px;
+        top: 40%;
+        font-size: 30px;
+        color: #00a9ff;
+        cursor: pointer;
+        background: none;
+        border: none;
+        z-index: 0;
+        overflow: hidden;
+    }
+
+    /* Slider section end */
+    /* Why choose us section start */
+    #why-choose-us-container {
+        width: 35%;
+        display: block;
+        overflow: hidden;
+    }
+
+
+
+
+
+    /* Why choose us section end */
+
+    /* Our mission section start */
+    .service-heading {
+        width: 40%;
+        font-size: 17px;
+    }
+
+    .vision {
+        width: 50%;
+        height: 100%;
+        display: block;
+        overflow: hidden;
+    }
+
+    .vision hr {
+        display: none;
+    }
+
+    .vision-item {
+        width: 80%;
+        display: block;
+        font-size: 15px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    /* Our mission section end */
+
+    /* Deyerlerimiz section start */
+    .worth {
+        width: 40%;
+        display: block;
+        position: relative;
+        top: 0px;
+        left: 0;
+        text-align: center;
+    }
+
+
+
+
+    /* Deyerlerimiz section end */
+
+    /* Testin novleri section start */
+    .test-type {
+        width: 50%;
+        display: block;
+        object-fit: cover;
+    }
+
+    .test-type-item {
+        width: 100%;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    /* Testin novleri section end */
+
+    /* Haqqimizda section picrure */
+    .about-container {
+        width: 100%;
+
+    }
+
+    .about-container img {
+        object-fit: cover;
+    }
+
+    .about-container .overlay p {
+        position: absolute;
+        left: 0px;
+    }
+
+    /* Haqqimizda section picture */
+
+    /* Haqqimizda section testin novleri start */
+    .test-type {
+        width: 100%;
+        display: block;
+    }
+
+    .test-type-item {
+        width: 40%;
+        border: 1px solid #fff;
+        top: 2px;
+    }
+
+    /* Haqqimizda section testin novleri end */
+
+    /* Servisler section picture section start */
+    #picture-container {
+        width: 100%;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    /* Servisler section picture section end */
+    /* Servisler section xidmetler */
+     #service-container {
+         width: 40%;
+         display: block;
+     }
+     /* Servisler section xidmetler */
+     /* Elaqe melumatlari start */
+     .contact-form {
+         width: 100%;
+         display: block;
+         position: relative;
+     }
+
+ .contact-form-sides {
+     width: 100%;
+     position: relative;
+     left: 30%;
+ }
+      /* Elaqe melumatlari end */
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    .dropdown-menu {
+        display: block;
+        position: relative;
+        color: #3F9DE3;
+        cursor: pointer;
+    }
+
+
+
+
+    .dropdown-content {
+        display: none;
+    }
+
+    .dropdown-content:hover {
+        display: block;
+    }
+
+
+
+    .dropdown-content li {
+        padding: 20px 0px;
+        font-size: 17px;
+
+    }
+
+    .dropdown-content li:hover {
+        background-color: #00A9FF;
+        color: #fff;
+    }
+
+
+
+    .main-logo {
+        display: none;
+    }
+
+    .information-section {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+
+
+    .mini-nav-bar-item ul {
+        display: none;
+    }
+
+    /* Slider section start */
+    #slider-container {
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        position: relative;
+
+    }
+
+    .slider-content {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 1%;
+        left: 5%;
+    }
+
+    .slider-content h2 {
+        font-size: 20px;
+        position: relative;
+        top: 0px;
+
+    }
+
+
+    .slider-content p {
+        font-size: 20px;
+    }
+
+
+    .left {
+        position: absolute;
+        left: 0px;
+        top: 40%;
+        font-size: 30px;
+        color: #00a9ff;
+        cursor: pointer;
+        background: none;
+        border: none;
+        z-index: 0;
+        overflow: hidden;
+    }
+
+
+    .right {
+        position: absolute;
+        right: 0px;
+        top: 40%;
+        font-size: 30px;
+        color: #00a9ff;
+        cursor: pointer;
+        background: none;
+        border: none;
+        z-index: 0;
+        overflow: hidden;
+    }
+
+    /* Slider section end */
+    /* Why choose us section start */
+    #why-choose-us-container {
+        width: 35%;
+        display: block;
+        overflow: hidden;
+    }
+
+
+
+
+
+    /* Why choose us section end */
+
+    /* Our mission section start */
+    .service-heading {
+        width: 40%;
+        font-size: 17px;
+    }
+
+    .vision {
+        width: 50%;
+        height: 100%;
+        display: block;
+        overflow: hidden;
+    }
+
+    .vision hr {
+        display: none;
+    }
+
+    .vision-item {
+        width: 80%;
+        display: block;
+        font-size: 15px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    /* Our mission section end */
+
+    /* Deyerlerimiz section start */
+    .worth {
+        width: 40%;
+        display: block;
+        position: relative;
+        top: 0px;
+        left: 0;
+        text-align: center;
+    }
+
+
+
+
+    /* Deyerlerimiz section end */
+
+    /* Testin novleri section start */
+    .test-type {
+        width: 50%;
+        display: block;
+        object-fit: cover;
+    }
+
+    .test-type-item {
+        width: 100%;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    /* Testin novleri section end */
+
+    /* Haqqimizda section picrure */
+    .about-container {
+        width: 100%;
+
+    }
+
+    .about-container img {
+        object-fit: cover;
+    }
+
+    .about-container .overlay p {
+        position: absolute;
+        left: 0px;
+    }
+
+    /* Haqqimizda section picture */
+
+    /* Haqqimizda section testin novleri start */
+    .test-type {
+        width: 100%;
+        display: block;
+    }
+
+    .test-type-item {
+        width: 40%;
+        border: 1px solid #fff;
+        top: 2px;
+    }
+
+    /* Haqqimizda section testin novleri end */
+
+    /* Servisler section picture section start */
+    #picture-container {
+        width: 100%;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    /* Servisler section picture section end */
+    /* Servisler section xidmetler */
+     #service-container {
+         width: 40%;
+         display: block;
+     }
+     /* Servisler section xidmetler */
+     /* Elaqe melumatlari start */
+     .contact-form {
+         width: 100%;
+         display: block;
+         position: relative;
+     }
+
+ .contact-form-sides {
+     width: 100%;
+     position: relative;
+     left: 30%;
+ }
+      /* Elaqe melumatlari end */
+}
+
+@media (min-width:1200px) {
+
+}
