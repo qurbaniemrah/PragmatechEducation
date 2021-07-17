@@ -188,8 +188,10 @@ a {
     gap: 50px;
     position: relative;
     left: 38%;
-
+    text-align: center;
 }
+
+
 
 .worth-item li {
     border: 1px solid #fff;
