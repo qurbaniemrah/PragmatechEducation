@@ -305,6 +305,7 @@
     }
 
     .slider-content {
+        text-align: center;
         width: 100%;
         height: 100%;
         position: absolute;
@@ -313,6 +314,7 @@
     }
 
     .slider-content h2 {
+        width: 100%;
         font-size: 20px;
         position: relative;
         top: 0px;
@@ -321,7 +323,9 @@
 
 
     .slider-content p {
+        width: 100%;
         font-size: 20px;
+        left: 1%;
     }
 
 
@@ -355,7 +359,7 @@
     /* Slider section end */
     /* Why choose us section start */
     #why-choose-us-container {
-        width: 35%;
+        width: 50%;
         display: block;
         overflow: hidden;
     }
@@ -368,7 +372,7 @@
 
     /* Our mission section start */
     .service-heading {
-        width: 40%;
+        width: 60%;
         font-size: 17px;
     }
 
@@ -552,6 +556,7 @@
         position: absolute;
         top: 1%;
         left: 5%;
+        text-align: center;
     }
 
     .slider-content h2 {
@@ -597,7 +602,7 @@
     /* Slider section end */
     /* Why choose us section start */
     #why-choose-us-container {
-        width: 35%;
+        width: 60%;
         display: block;
         overflow: hidden;
     }
@@ -610,7 +615,7 @@
 
     /* Our mission section start */
     .service-heading {
-        width: 40%;
+        width: 70%;
         font-size: 17px;
     }
 
@@ -794,6 +799,7 @@
         position: absolute;
         top: 1%;
         left: 5%;
+        text-align: center;
     }
 
     .slider-content h2 {
@@ -839,7 +845,7 @@
     /* Slider section end */
     /* Why choose us section start */
     #why-choose-us-container {
-        width: 35%;
+        width: 70%;
         display: block;
         overflow: hidden;
     }
@@ -852,7 +858,7 @@
 
     /* Our mission section start */
     .service-heading {
-        width: 40%;
+        width: 80%;
         font-size: 17px;
     }
 
