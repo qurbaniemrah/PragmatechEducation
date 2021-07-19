@@ -377,7 +377,7 @@
     }
 
     .vision {
-        width: 50%;
+        width: 80%;
         height: 100%;
         display: block;
         overflow: hidden;
@@ -388,7 +388,7 @@
     }
 
     .vision-item {
-        width: 80%;
+        width: 70%;
         display: block;
         font-size: 15px;
         text-align: center;
@@ -399,7 +399,7 @@
 
     /* Deyerlerimiz section start */
     .worth {
-        width: 40%;
+        width: 60%;
         display: block;
         position: relative;
         top: 0px;
@@ -414,16 +414,16 @@
 
     /* Testin novleri section start */
     .test-type {
-        width: 50%;
-        display: block;
-        object-fit: cover;
+        width: 100%;
+       
     }
 
     .test-type-item {
         width: 100%;
-        object-fit: cover;
-        background-size: cover;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
     }
+
+ 
 
     /* Testin novleri section end */
 
@@ -845,7 +845,7 @@
     /* Slider section end */
     /* Why choose us section start */
     #why-choose-us-container {
-        width: 70%;
+        width: 80%;
         display: block;
         overflow: hidden;
     }
@@ -858,7 +858,7 @@
 
     /* Our mission section start */
     .service-heading {
-        width: 80%;
+        width: 90%;
         font-size: 17px;
     }
 

@@ -206,12 +206,14 @@ a {
 
 /* Testin novleri */
 .test-type {
+    width: 100%;
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 30px;
 }
 
 .test-type-item {
+    width: 100%;
     width: auto;
     height: 100px;
     border: 1px solid gray;
