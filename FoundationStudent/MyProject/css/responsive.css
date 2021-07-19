@@ -715,9 +715,13 @@
     /* Servisler section picture section end */
     /* Servisler section xidmetler */
      #service-container {
-         width: 40%;
+         width: 100%;
          display: block;
      }
+
+     .service-item {
+        width: 60%;
+    }
      /* Servisler section xidmetler */
      /* Elaqe melumatlari start */
      .contact-form {
@@ -964,10 +968,14 @@
 
     /* Servisler section picture section end */
     /* Servisler section xidmetler */
-     #service-container {
-         width: 40%;
+     /* #service-container {
+         width: 100%;
          display: block;
      }
+
+     .service-item {
+        width: 100%;
+    } */
      /* Servisler section xidmetler */
      /* Elaqe melumatlari start */
      .contact-form {
