@@ -468,8 +468,12 @@
     /* Servisler section picture section end */
     /* Servisler section xidmetler */
      #service-container {
-         width: 40%;
+         width: 100%;
          display: block;
+     }
+
+     .service-item {
+         width: 60%;
      }
      /* Servisler section xidmetler */
      /* Elaqe melumatlari start */
