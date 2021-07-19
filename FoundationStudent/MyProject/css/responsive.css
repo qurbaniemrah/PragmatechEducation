@@ -602,7 +602,7 @@
     /* Slider section end */
     /* Why choose us section start */
     #why-choose-us-container {
-        width: 60%;
+        width: 50%;
         display: block;
         overflow: hidden;
     }
@@ -615,12 +615,12 @@
 
     /* Our mission section start */
     .service-heading {
-        width: 70%;
+        width: 60%;
         font-size: 17px;
     }
 
     .vision {
-        width: 50%;
+        width: 60%;
         height: 100%;
         display: block;
         overflow: hidden;
@@ -631,7 +631,7 @@
     }
 
     .vision-item {
-        width: 80%;
+        width: 100%;
         display: block;
         font-size: 15px;
         text-align: center;
@@ -642,7 +642,7 @@
 
     /* Deyerlerimiz section start */
     .worth {
-        width: 40%;
+        width: 60%;
         display: block;
         position: relative;
         top: 0px;
@@ -858,12 +858,12 @@
 
     /* Our mission section start */
     .service-heading {
-        width: 90%;
+        width: 100%;
         font-size: 17px;
     }
 
     .vision {
-        width: 50%;
+        width: 100%;
         height: 100%;
         display: block;
         overflow: hidden;
@@ -874,7 +874,7 @@
     }
 
     .vision-item {
-        width: 80%;
+        width: 100%;
         display: block;
         font-size: 15px;
         text-align: center;
@@ -885,8 +885,8 @@
 
     /* Deyerlerimiz section start */
     .worth {
-        width: 40%;
-        display: block;
+        width: 100%;
+        
         position: relative;
         top: 0px;
         left: 0;
@@ -900,16 +900,23 @@
 
     /* Testin novleri section start */
     .test-type {
-        width: 50%;
-        display: block;
-        object-fit: cover;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 30px;
     }
-
+    
     .test-type-item {
         width: 100%;
-        object-fit: cover;
-        background-size: cover;
+        width: auto;
+        height: 100px;
+        border: 1px solid gray;
+        background-color: #00C9B2;
+        color: #fff;
+        text-align: center;
     }
+
+  
 
     /* Testin novleri section end */
 
