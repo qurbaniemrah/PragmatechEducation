@@ -221,24 +221,26 @@
 
     /* Servisler section picture section end */
     /* Servisler section xidmetler */
-     #service-container {
-         width: 40%;
-         display: block;
-     }
-     /* Servisler section xidmetler */
-     /* Elaqe melumatlari start */
-     .contact-form {
-         width: 100%;
-         display: block;
-         position: relative;
-     }
+    #service-container {
+        width: 40%;
+        display: block;
+    }
 
- .contact-form-sides {
-     width: 100%;
-     position: relative;
-     left: 30%;
- }
-      /* Elaqe melumatlari end */
+    /* Servisler section xidmetler */
+    /* Elaqe melumatlari start */
+    .contact-form {
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+
+    .contact-form-sides {
+        width: 100%;
+        position: relative;
+        left: 30%;
+    }
+
+    /* Elaqe melumatlari end */
 }
 
 @media (min-width:576px) and (max-width:768px) {
@@ -415,7 +417,7 @@
     /* Testin novleri section start */
     .test-type {
         width: 100%;
-       
+
     }
 
     .test-type-item {
@@ -423,7 +425,7 @@
         grid-template-columns: 2fr 2fr 2fr 2fr;
     }
 
- 
+
 
     /* Testin novleri section end */
 
@@ -467,28 +469,30 @@
 
     /* Servisler section picture section end */
     /* Servisler section xidmetler */
-     #service-container {
-         width: 100%;
-         display: block;
-     }
+    #service-container {
+        width: 100%;
+        display: block;
+    }
 
-     .service-item {
-         width: 60%;
-     }
-     /* Servisler section xidmetler */
-     /* Elaqe melumatlari start */
-     .contact-form {
-         width: 100%;
-         display: block;
-         position: relative;
-     }
+    .service-item {
+        width: 60%;
+    }
 
- .contact-form-sides {
-     width: 100%;
-     position: relative;
-     left: 30%;
- }
-      /* Elaqe melumatlari end */
+    /* Servisler section xidmetler */
+    /* Elaqe melumatlari start */
+    .contact-form {
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+
+    .contact-form-sides {
+        width: 100%;
+        position: relative;
+        left: 30%;
+    }
+
+    /* Elaqe melumatlari end */
 }
 
 @media (min-width:768px) and (max-width:992px) {
@@ -714,28 +718,30 @@
 
     /* Servisler section picture section end */
     /* Servisler section xidmetler */
-     #service-container {
-         width: 100%;
-         display: block;
-     }
+    #service-container {
+        width: 100%;
+        display: block;
+    }
 
-     .service-item {
+    .service-item {
         width: 60%;
     }
-     /* Servisler section xidmetler */
-     /* Elaqe melumatlari start */
-     .contact-form {
-         width: 100%;
-         display: block;
-         position: relative;
-     }
 
- .contact-form-sides {
-     width: 100%;
-     position: relative;
-     left: 30%;
- }
-      /* Elaqe melumatlari end */
+    /* Servisler section xidmetler */
+    /* Elaqe melumatlari start */
+    .contact-form {
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+
+    .contact-form-sides {
+        width: 100%;
+        position: relative;
+        left: 30%;
+    }
+
+    /* Elaqe melumatlari end */
 }
 
 @media (min-width:992px) and (max-width:1200px) {
@@ -894,7 +900,7 @@
     /* Deyerlerimiz section start */
     .worth {
         width: 100%;
-        
+
         position: relative;
         top: 0px;
         left: 0;
@@ -913,7 +919,7 @@
         grid-template-columns: auto auto auto;
         gap: 30px;
     }
-    
+
     .test-type-item {
         width: 100%;
         width: auto;
@@ -924,7 +930,7 @@
         text-align: center;
     }
 
-  
+
 
     /* Testin novleri section end */
 
@@ -968,7 +974,7 @@
 
     /* Servisler section picture section end */
     /* Servisler section xidmetler */
-     /* #service-container {
+    /* #service-container {
          width: 100%;
          display: block;
      }
@@ -976,22 +982,21 @@
      .service-item {
         width: 100%;
     } */
-     /* Servisler section xidmetler */
-     /* Elaqe melumatlari start */
-     .contact-form {
-         width: 100%;
-         display: block;
-         position: relative;
-     }
+    /* Servisler section xidmetler */
+    /* Elaqe melumatlari start */
+    .contact-form {
+        width: 100%;
+        display: block;
+        position: relative;
+    }
 
- .contact-form-sides {
-     width: 100%;
-     position: relative;
-     left: 30%;
- }
-      /* Elaqe melumatlari end */
+    .contact-form-sides {
+        width: 100%;
+        position: relative;
+        left: 30%;
+    }
+
+    /* Elaqe melumatlari end */
 }
 
-@media (min-width:1200px) {
-
-}
+@media (min-width:1200px) {}
