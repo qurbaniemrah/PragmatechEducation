@@ -10,3 +10,5 @@ class user:
         users.append(self)
     def qeydiyyatdanKec(self):
         print(f'{self.Ad} | {self.Soyad} | {self.Email} | {self.Username} | {self.Password}')
+
+        

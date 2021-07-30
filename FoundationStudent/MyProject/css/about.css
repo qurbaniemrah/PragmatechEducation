@@ -187,8 +187,13 @@ a {
     grid-template-columns: auto auto;
     gap: 50px;
     position: relative;
-    left: 38%;
+    left: 22%;
     text-align: center;
+}
+
+.worth-item {
+    width: 300px;
+    height: 300px;
 }
 
 
