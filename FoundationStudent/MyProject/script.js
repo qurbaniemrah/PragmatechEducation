@@ -12,10 +12,13 @@ window.onscroll = function () {
         containerHeader.style.display = 'none';
         miniNavBar.style.display = 'block';
         miniNavBar.style.position = 'fixed';
+        miniNavBar.style.display = 'absolute';
         miniNavBar.style.top = 0;
-        miniNavBar.style.left = 0;
-
-
+        miniNavBar.style.backgroundColor = '#FFFFFF';
+        miniNavBar.style.display = 'flex';
+        miniNavBar.style.width = '100%';
+        miniNavBar.style.margin = '0px';
+        
 
     } else if (window.pageYOffset < 120) {
         containerHeader.style.display = 'block';
@@ -26,7 +29,7 @@ window.onscroll = function () {
         containerHeader.style.display = 'flex';
         containerHeader.style.width = '100%';
         containerHeader.style.margin = '0px';
-
+       
     }
 }
 
