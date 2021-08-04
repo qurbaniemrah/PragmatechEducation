@@ -1,3 +1,10 @@
+import json
+# read json file
+f = open('kitablar.json','r')
+data = json.loads(f)
+
+print(data('Author'))
+
 books = []
 
 class Book:
@@ -13,6 +20,7 @@ class Book:
 
 def findBookByName(_bookname):
     # kitab adı daxil edildiyi zaman kitabın digər detallarını ekrana çap edin
+    
        pass
 
 def totalPaper():
