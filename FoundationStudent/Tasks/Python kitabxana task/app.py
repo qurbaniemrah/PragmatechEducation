@@ -1,16 +1,16 @@
 import json
 # read json file
-f = open('kitablar.json','r')
+f = open('kitablar.json','rt')
 data = json.loads(f)
-
-print(data('Author'))
+print(data)
 
 books = []
 
 class Book:
-     def __init__(self,_author,_country,_imagelink,_language,_link,_pages,_title,_year):
+     def __init__(self,_author,_countryName,_imagelink,_language,_link,_pages,_title,_year,_bookname):
+          self.Bookname = _bookname
           self.Author = _author
-          self.Country = _country
+          self.Countryname = _countryName
           self.ImageLink = _imagelink
           self.Language = _language
           self.Link = _link
