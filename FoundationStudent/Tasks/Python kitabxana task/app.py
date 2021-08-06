@@ -1,8 +1,7 @@
 import json
-# read json file
-f = open('kitablar.json','rt')
-data = json.loads(f)
-print(data)
+f = open('kitablar.json', 'rt')
+data = json.load(f)
+print(data[{'author'}])
 
 books = []
 
