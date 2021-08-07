@@ -1,26 +1,28 @@
 import json
 f = open('kitablar.json', 'rt')
 data = json.load(f)
-print(data[{'author'}])
+
 
 books = []
 
 class Book:
-     def __init__(self,_author,_countryName,_imagelink,_language,_link,_pages,_title,_year,_bookname):
-          self.Bookname = _bookname
-          self.Author = _author
-          self.Countryname = _countryName
-          self.ImageLink = _imagelink
-          self.Language = _language
-          self.Link = _link
-          self.Pages = _pages
-          self.Title = _title
-          self.Year = _year
+     def __init__(self,_author,_countryName,_imagelink,_language,_link,_pages,_title,_year,):
+          self.author = _author
+          self.countryname = _countryName
+          self.imageLink = _imagelink
+          self.language = _language
+          self.link = _link
+          self.pages = _pages
+          self.title = _title
+          self.year = _year
 
-def findBookByName(_bookname):
+def findBookByName(_author):
     # kitab adı daxil edildiyi zaman kitabın digər detallarını ekrana çap edin
+    for i in data:
+        print(i[0])
+   
     
-       pass
+       
 
 def totalPaper():
     # bütün siyahıda var olan kitabların səhifə saylarının cəmini ekrana çap edin
@@ -34,4 +36,3 @@ def convertToList():
     # bütün kitabların list>object məntiqinə əsasən çevirin
        pass          
  
-    
