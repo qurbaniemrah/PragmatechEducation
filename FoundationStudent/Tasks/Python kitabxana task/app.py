@@ -4,6 +4,8 @@ data = json.load(f)
 
 
 books = []
+books.append(data)
+print(books)
 
 class Book:
      def __init__(self,_author,_countryName,_imagelink,_language,_link,_pages,_title,_year,):
@@ -18,8 +20,7 @@ class Book:
 
 def findBookByName(_author):
     # kitab adı daxil edildiyi zaman kitabın digər detallarını ekrana çap edin
-    for i in data:
-        print(i[0])
+   pass
    
     
        
