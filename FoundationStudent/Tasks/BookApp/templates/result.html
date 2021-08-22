@@ -11,20 +11,27 @@
 </head>
 
 <body>
-    <table class="table light">
-        
-            <tr>
-              <th>Kitab Adı</th>
-              <th>Kitabın yazarı</th>
-              <th>Kitabın çap ili</th>
-              <th>Kitabın səhifə sayı </th>
-              <th>Kitabın xülasəsi</th>
-            </tr>
-           
-             
-           
-          
-    </table>
+  <ul>
+      <li><a href="/create">Add</a></li>
+      <li><a href="/result">Result</a></li>
+      
+  </ul>
+
+  
+  <div class="container">
+    <div class="row">
+        <div class="col-12">
+            {%  for Book in books %}
+             <p>ad: {{Book['Name']}}</p>
+             <p>Author: {{Book['Author']}}</p>
+             <p>Year: {{Book['Year']}}</p>
+             <button class="btn btn-primary"><a href="/resut/{{Book.id}}" class="choose-btn">Kitabi oxu</a></button>
+             <hr>
+            {% endfor %}
+        </div>
+    </div>
+ </div>
+
 
 
 

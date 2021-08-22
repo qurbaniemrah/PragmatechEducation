@@ -12,34 +12,21 @@
 
 <body>
     <h2>Kitab məlumat sistemi</h2>
-    <div class="mb-3">
-        <label for="" class="form-label">Kitab adı</label>
-        <input class="form-control" id="1" type="text" placeholder="" aria-label="" name = 'Name'>
-    </div>
-    <br>
-    <div class="mb-3">
-        <label for="text" class="form-label">Kitabın yazarı</label>
-        <input class="form-control" id="2" type="text" placeholder="" aria-label="" name = 'Author'>
-    </div>
-    <br>
-    <div class="mb-3">
-        <label for="" class="form-label">Kitabın çap ili</label>
-        <input class="form-control" id="3" type="text" placeholder="" aria-label="" name = 'Year'>
-    </div>
-    <br>
-    <div class="mb-3">
-        <label for="" class="form-label">Kitabın səhifə sayı</label>
-        <input class="form-control" id="4" type="text" placeholder="" aria-label="" name = 'Number'>
-    </div>
-    <br>
-    <div class="mb-3">
-        <label for="" class="form-label">Kitabın xülasəsi</label>
-        <input class="form-control" id="5" type="text" placeholder="" aria-label="" name = 'Summary'>
-    </div>
+    
+    <form action="/create", method="POST">
+        <label class="form-label">kitabin adi...</label>
+        <input type="text" class="form-control"  name='Name'>
+        <label class="form-label">shair kimdir?</label>
+        <input type="text" class="form-control"  name='Author'>
+        <label class="form-label">kitabin tarixi....</label>
+        <input type="text" class="form-control"  name='Year'>
+        <label class="form-label">kitabin sehifesi.....</label>
+        <input type="text" class="form-control"  name='Number'>
+        <label class="form-label">kitabin icindekileri..</label>
+        <input type="text" class="form-control"  name='Summary'> <br>
+        <button type="submit" class="btn btn-primary">Elave et</button>
+    </form>
 
-    <button type="button" class="btn btn-primary">
-        Add
-    </button>
 
 
 

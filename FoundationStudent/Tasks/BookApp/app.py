@@ -14,27 +14,29 @@ def index():
 @app.route("/create", methods = ['GET', 'POST'])
 def create():
     if request.method == 'POST':
-        Name = request.form['Name']
-        Author = request.form['Author']
-        Year = request.form['Year']
-        Number = request.form['Number']
-        Summary = request.form['Summary']
-        Book  = {
-             'id':Books.__len__(),
-             'Name': Name,
-             'Author': Author,
-             'Year': Year,
-             'Number': Number,
-             'Summary': Summary
-            
-        }
+     Name = request.form['Name']
+     Author = request.form['Author']
+     Year = request.form['Year']
+     Number = request.form['Number']
+     Summary = request.form['Summary']
 
-    Book.append(book)
-        return render_template("create.html")
+    Book = {
+        'id': books.__len__(),
+        'Name':Name,
+        'Author':Author,
+        'Year':Year,
+        'Number':Number,
+        'Summary':Summary
+
+
+    }
+    books.append(Book)
+    
+    return render_template("/create.html")
 
 @app.route("/result")
 def result():
-    return render_template("result.html")    
+    return render_template("/result.html",books = books)    
 
 
 if __name__=="__main__":
