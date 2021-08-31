@@ -124,6 +124,23 @@
 
     /* Why choose us section end */
 
+    /* Pricing plan section start */
+    #pricing-plans-content {
+        width: 40%;
+        display: block;
+    }
+    
+    /* Pricing plan section end */
+
+    /* About us section start */
+    .about-us-items-container {
+        width: 100%;
+        display: block;
+    }
+
+
+    /* About us section end */
+
     /* Our mission section start */
     .service-heading {
         width: 40%;
