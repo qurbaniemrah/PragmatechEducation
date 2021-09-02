@@ -34,3 +34,10 @@
     list-style-type: none;
     font-size: 20px;
 }
+
+.btn {
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
