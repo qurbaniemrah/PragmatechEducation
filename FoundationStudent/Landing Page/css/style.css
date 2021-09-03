@@ -1,3 +1,5 @@
+/* First section start */
+
 #first-section {
     width: 100%;
     height: 800px;
@@ -16,6 +18,7 @@
     align-items: center;
     position: absolute;
     padding: 3% 0px;
+
 }
 
 .nav-bar-items {
@@ -25,19 +28,19 @@
 
 
 .nav-bar-items ul {
-   
+
     width: 100%;
     margin: 0;
     padding: 0;
     list-style-type: none;
-    
+
 }
 
 .nav-bar-items li {
-   padding: 0px 10px;
- 
-   display: inline-block;
-   
+    padding: 0px 10px;
+
+    display: inline-block;
+
 }
 
 .nav-bar-items a {
@@ -51,4 +54,20 @@
     padding: 10px;
     font-size: 20px;
     cursor: pointer;
+}
+
+.first-section-content {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    position: absolute;
+    top:40% ;
+}
+
+.first-image {
+    width: 800px;
+    height: 600px;
 }
