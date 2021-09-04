@@ -86,8 +86,8 @@
 } */
 /* First section end */
 
-/* Secon section start */
-.numbers {
+/* Second section start */
+#second {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -101,3 +101,11 @@
     font-size: 20px;
 }
 /* Secon section end */
+
+/* Third section start */
+.third-slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Third section end */
