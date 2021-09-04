@@ -53,13 +53,41 @@
     text-decoration: none;
     list-style-type: none;
     font-size: 20px;
+    color: #fff;
 }
 
-.btn {
+
+
+.nav-bar-items a:hover {
+    color: black;
+}
+
+.btn-1 {
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-2 {
     border-radius: 15px;
     padding: 10px;
     font-size: 20px;
     cursor: pointer;
+    border: none;
+    background-image: linear-gradient(to right, #813DB6, #BE369F);
+}
+
+.btn-3 {
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #813DB6, #BE369F);
+    
 }
 
 .first-section-content {
@@ -114,6 +142,7 @@
 }
 
 .third-content p {
+    color: #6A8092;
     font-size: 20px;
 }
 
@@ -131,19 +160,31 @@
 
 }
 
+.third-slider-items i {
+    font-size: 40px;
+    color: gray;
+}
 
+.third-slider-items p {
+    color: #6A8092;
+}
 
 .left-btn {
-    border: none;
+    border-radius: 50%;
+    border: 1px solid gray;
     position: absolute;
     left: 0px;
+    cursor: pointer;
+    color: #A23AAA;
 }
 
 .right-btn {
-    border: none;
+    border-radius: 50%;
+    border: 1px solid gray;
     position: absolute;
     right: 0px;
-    
+    cursor: pointer;
+    color: #A23AAA;
 }
 
 /* Third section end */
