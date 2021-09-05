@@ -87,7 +87,7 @@
     border: 3px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(to right, #813DB6, #BE369F);
-    
+
 }
 
 .first-section-content {
@@ -160,6 +160,7 @@
 
 }
 
+
 .third-slider-items i {
     font-size: 40px;
     color: gray;
@@ -167,6 +168,12 @@
 
 .third-slider-items p {
     color: #6A8092;
+}
+
+.third-slider-items hr {
+    border: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #813DB6, #BE369F);
 }
 
 .left-btn {
@@ -188,3 +195,21 @@
 }
 
 /* Third section end */
+
+/* Fourth-section start */
+#fourth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fourth-content {
+    padding: 0px 70px;
+}
+
+.vertical {
+ border: 3px solid;
+ transform-origin: left;
+ transform: rotate(270deg);
+}
+/* Fourth-section end */
