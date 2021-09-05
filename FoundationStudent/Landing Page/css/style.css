@@ -204,7 +204,7 @@
 }
 
 .fourth-items {
-    padding: 40px 0px;
+    padding: 10px 100px;
 }
 
 .fourth-items h2 {
@@ -215,49 +215,56 @@
     padding: 0px 70px;
 }
 
-
-
-.vertical  {
-    border: 2px solid gray;
-    width: 600px;
-    height: 0px;
+.lines {
+    width: 500px;
+    height: 45px;
+    position: relative;
     transform-origin: left;
-    border: none;
-    transform: rotate(90deg);
-    position: relative;
-    z-index: 0;
+    transform: rotate(-90deg);
 }
 
-.vertical hr {
-    
-    border: 2px solid gray;
-}
-
-.circle {
-    position: relative;
-    width: 70px;
-    height: 70px;
-    border: 1px solid gray;
-    display: inline-block;
-    margin: 40px;
-    border-radius: 50%;
-    top: -84px;
-    left: -41px;
-    overflow: hidden;
-    z-index: 1;
-    background-color: gray;
-}
-
-.circle i {
+.lines::after,
+.lines::before {
+    content: '';
     position: absolute;
-    background-size: cover;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
+    margin: auto;
+    height: 2px;
+    background: black;
+    width: 45%;
+    top: 45%;
 }
+
+.lines::after {
+    left: 0;
+}
+
+.lines::before {
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
