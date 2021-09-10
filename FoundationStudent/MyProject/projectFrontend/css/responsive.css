@@ -129,7 +129,7 @@
         width: 40%;
         display: block;
     }
-    
+
     /* Pricing plan section end */
 
     /* About us section start */
@@ -244,6 +244,29 @@
     }
 
     /* Servisler section xidmetler */
+    /* About us section start */
+    .about-us-container {
+     width: 100%;
+     display: block;
+    }
+
+    .about-us-items {
+        width: 100%;
+        display: block;
+        position: relative;
+        position: center;
+        text-align: center;
+        left: 35%;
+    }
+
+    .slide-content {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        left: 40%;
+    }
+    /* About us section end */
+
     /* Elaqe melumatlari start */
     .contact-form {
         width: 100%;
@@ -256,6 +279,8 @@
         position: relative;
         left: 30%;
     }
+
+   
 
     /* Elaqe melumatlari end */
 }
@@ -434,14 +459,14 @@
     /* Testin novleri section start */
     .test-type {
         width: 100%;
-        
+
     }
 
     .test-type-item {
-    
+
         width: 100%;
         grid-template-columns: 2fr 2fr 2fr 2fr;
-      
+
     }
 
 
@@ -924,7 +949,7 @@
         top: 0px;
         left: 38%;
         text-align: center;
-        
+
     }
 
 
